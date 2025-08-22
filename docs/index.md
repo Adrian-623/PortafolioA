@@ -1,7 +1,28 @@
-# Documentación del Proyecto de Adrian
-
+# Documentación del Proyecto de Adrian e Iker
 Bienvenido 👋  
-Esta es una **plantilla** basada en [MkDocs](https://www.mkdocs.org/) + [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) para cursos y proyectos.
+
+## **Cosas que nos gustan hacer**
+- **Iker**
+    * Jugar videojuegos
+    * Ver películas
+    * Nadar
+    * Baseball
+
+<img src="../recursos/imgs/image.png" alt="Diagrama del sistema" width="300">
+
+- **Adrian**
+    * Jugar videojuegos
+    * Ver series
+    * Basquetbol
+    * Leer
+
+<img src="../recursos/imgs/Multimedia1.jpg" alt="Diagrama del sistema" width="300">
+
+### **Orgullosos de:**
+- **Iker**
+    * 15° lugar en la competenmcia nacional de Lego First 2023-2024
+- **Adrián** 
+    * Creación de huerto con regado e iluminación semiautomaticos para interiores
 
 ---
 
