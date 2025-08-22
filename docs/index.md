@@ -8,7 +8,7 @@ Bienvenido 👋
     * Nadar
     * Baseball
 
-<img src="/recursos/imgs/image.png" alt="Diagrama del sistema" width="300">
+<img src="recursos/imgs/image.png" width="300">
 
 - **Adrian**
     * Jugar videojuegos
@@ -16,7 +16,7 @@ Bienvenido 👋
     * Basquetbol
     * Leer
 
-<img src=/"recursos/imgs/Multimedia1.jpg" alt="Diagrama del sistema" width="300">
+<img src="recursos/imgs/Multimedia1.jpg" width="300">
 
 ### **Orgullosos de:**
 - **Iker**
