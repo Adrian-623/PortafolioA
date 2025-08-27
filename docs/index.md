@@ -14,10 +14,14 @@ Algo de lo cual me siento orgulloso es que cree con mis compañeros un huerto co
     <img src="recursos/imgs/retrocomparador.webp" width="100">
     
     * Jugar Basquetbol
-     <img src="recursos/imgs/Basq.png" width="100">
+     <img src="recursos/imgs/basqu.gif" width="100">
      
     * Leer varios géneros de libros    
-      <img src="recursos/imgs/libro.png" width="100">
+    <img src="recursos/imgs/libro.png" width="100">
+
+- ### **Información de contacto**
+**Email:** **204560@iberopuebla.mx**
+  
 ## **Iker** 
 <img src="recursos/imgs/image.png" width="300">
 
@@ -31,6 +35,9 @@ Hola soy Iker Antonio Barrios Rios tengo 18 años, y me siento orgulloso por que
      
     * Me apasiona el beisbol, le voy a los pericos de puebla
      <img src="recursos/imgs/base.gif" width="100">
+
+- ### **Información de contacto**
+**Email:** **202778@iberopuebla.mx**
 
 ---
 
