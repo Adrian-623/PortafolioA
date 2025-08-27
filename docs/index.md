@@ -5,18 +5,16 @@ Bienvenido 👋
 <img src="recursos/imgs/Multimedia1.jpg" width="300">
 
 **Descripción personal**
-  -Mi nombre es Jorge Adrián Pérez Fernández, actualmente estoy estudiando Ingeniería mecatrónica, mis enfoques actuales serían la robotica y el control de programas.
-  Algo de lo cual me siento orgulloso es 
+
+  *Mi nombre es Jorge Adrián Pérez Fernández, actualmente estoy estudiando Ingeniería mecatrónica, mis enfoques actuales serían la robotica y el control de programas.
+  *Algo de lo cual me siento orgulloso es 
   
 **Mis interes son**:
   
-    - * Jugar videojuegos
-    
-     -* Jugar Basquetbol
-     
-     -* Ir al gimnasio
-     
-    - * Leer varios géneros de libros 
+Jugar videojuegos
+Jugar Basquetbol
+Ir al gimnasio
+Leer varios géneros de libros 
     
      
 ## **Iker** 
