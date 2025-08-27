@@ -11,7 +11,11 @@ Algo de lo cual me siento orgulloso es que cree con mis compañeros un huerto co
 
   - **Mis intereses son:**
     * Jugar videojuegos
+    <img src="recursos/imgs/retrocomparador.webp" width="100">
+    
     * Jugar Basquetbol
+     <img src="recursos/imgs/" width="100">
+     
     * Leer varios géneros de libros    
      
 ## **Iker** 
@@ -23,7 +27,10 @@ Hola soy Iker Antonio Barrios Rios tengo 18 años, y me siento orgulloso por que
 
   - **Mis intereses son:**
     * Jugar videojuegos de gestión, supervivencia y estrategia
+     <img src="recursos/imgs/329776.png" width="100">
+     
     * Me apasiona el beisbol, le voy a los pericos de puebla
+    
 
 ---
 
