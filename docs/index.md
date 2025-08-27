@@ -30,7 +30,7 @@ Algo de lo cual me siento orgulloso es que cree con mis compañeros un huerto co
 
 ### **Descripción personal**
 
-Hola soy Iker Antonio Barrios Rios tengo 18 años, y me siento orgulloso por quedar en lugar no. 15 en la competenmcia nacional de Lego First 2023-2024
+Hola soy Iker Antonio Barrios Rios tengo 18 años, actualmente estoy estudiando Ingeniería mecatrónica, mi principal enfoque esta en la electrónica programable( sensores y motores) aunque también me enfoco en la programación y en menor medida la mecánica, y me siento orgulloso por quedar en lugar no. 15 en la competenmcia nacional de Lego First 2023-2024
 
   - **Mis intereses son:**
     * Jugar videojuegos de gestión, supervivencia y estrategia
