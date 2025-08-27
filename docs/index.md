@@ -4,27 +4,26 @@ Bienvenido 👋
 ## **Adrián**
 <img src="recursos/imgs/Multimedia1.jpg" width="300">
 
-**Descripción personal**
+### **Descripción personal**
 
-  Mi nombre es Jorge Adrián Pérez Fernández, actualmente estoy estudiando Ingeniería mecatrónica, mis enfoques actuales serían la robotica y el control de programas.
-  Algo de lo cual me siento orgulloso es que cree con mis compañeros un huerto con regado e iluminación semiautomaticos para interiores
-  
-**Mis interes son**:
-  
-*Jugar videojuegos
-*Jugar Basquetbol
-*Ir al gimnasio
-*Leer varios géneros de libros 
-    
+Mi nombre es Jorge Adrián Pérez Fernández tengo 18 años, actualmente estoy estudiando Ingeniería mecatrónica, mis enfoques actuales serían la robotica y el control de programas.
+Algo de lo cual me siento orgulloso es que cree con mis compañeros un huerto con regado e iluminación semiautomaticos para interiores
+
+  - **Mis intereses son:**
+    * Jugar videojuegos
+    * Jugar Basquetbol
+    * Leer varios géneros de libros    
      
 ## **Iker** 
 <img src="recursos/imgs/image.png" width="300">
 
-### **Orgullosos de:**
-- **Iker**
-    * 15° lugar en la competenmcia nacional de Lego First 2023-2024
-- **Adrián** 
-    * Creación de huerto con regado e iluminación semiautomaticos para interiores
+### **Descripción personal**
+
+Hola soy Iker Antonio Barrios Rios tengo 18 años, y me siento orgulloso por quedar en lugar no. 15 en la competenmcia nacional de Lego First 2023-2024
+
+  - **Mis intereses son:**
+    * Jugar videojuegos de gestión, supervivencia y estrategia
+    * Me apasiona el beisbol, le voy a los pericos de puebla
 
 ---
 
