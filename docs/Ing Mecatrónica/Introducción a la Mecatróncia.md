@@ -1,8 +1,10 @@
-# Documentación del Proyecto de Adrian e Iker
+# Introducción a la mecatrónica
 Bienvenido 👋  
 
-## **Adrián**
-<img src="recursos/imgs/Multimedia1.jpg" width="300">
+<p align="center">
+  <img src="recursos/imgs/Multimedia1.jpg" width="300" /><br>
+  <b>Adrián</b>
+</p>
 
 ### **Descripción personal**
 
