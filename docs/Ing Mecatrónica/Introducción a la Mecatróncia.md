@@ -26,9 +26,12 @@ Algo de lo cual me siento orgulloso es que cree con mis compañeros un huerto co
 
 - ### **Información de contacto**
 **Email:** 204560@iberopuebla.mx
-  
-## **Iker** 
-<img src="recursos/imgs/image.png" width="300">
+ 
+ 
+ <p align="center">
+  <img src="recursos/imgs/image.jpg" width="300" /><br>
+  <b>Iker</b>
+</p> 
 
 ### **Descripción personal**
 
@@ -46,12 +49,3 @@ Hola soy Iker Antonio Barrios Rios tengo 18 años, actualmente estoy estudiando 
 - ### **Información de contacto**
 **Email:** 202778@iberopuebla.mx
 
----
-
-## Empezar rápido (3 pasos)
-
-1. **Edita el nombre del sitio** en `mkdocs.yml`:
-   ```yaml
-   site_name: Documentación del Curso
-   theme:
-     name: material
