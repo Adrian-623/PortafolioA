@@ -1,10 +1,8 @@
 # Introducción a la mecatrónica
 Bienvenido 👋  
 
-<p align="center">
-  <img src="imgs/Multimedia1.jpg" width="300" /><br>
-  <b>Adrián</b>
-</p>
+
+<img src="imgs/Multimedia1.jpg" width="300" /><br>
 
 ### **Descripción personal**
 
