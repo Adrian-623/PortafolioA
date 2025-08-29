@@ -2,7 +2,7 @@
 Bienvenido 👋  
 
 
-<img src="imgs/Multimedia1.jpg" width="300" /><br>
+<img src="docs/recursos/imgs/Multimedia1.jpeg" width="300" /><br>
 
 ### **Descripción personal**
 
