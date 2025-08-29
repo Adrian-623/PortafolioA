@@ -3,7 +3,7 @@
 En este apartado se podrán visualizar los enlaces respectivos a cada trabajo que realizemos 
 
 <p align="center">
-    <img src="../Ing_Mecatronica/imgs/semana.jpg" width="200">
+    <img src="../Proyecto_de_Ingenieria/imgs/semana.jpg" width="200">
 </p>
 
 
