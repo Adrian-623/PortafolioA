@@ -1,8 +1,10 @@
 # Introducción a la mecatrónica
 Bienvenido 👋  
 
-
-<img src="./recursos/imgs/Multimedia1.jpg" width="300" /><br>
+ <p align="center">
+  <img src="./imgs/Multimedia1.jpg" width="250" /><br>
+  <b>Adrián</b>
+</p> 
 
 ### **Descripción personal**
 
@@ -27,7 +29,7 @@ Algo de lo cual me siento orgulloso es que cree con mis compañeros un huerto co
  
  
  <p align="center">
-  <img src="recursos/imgs/image.jpg" width="300" /><br>
+  <img src="./imgs/image.jpg" width="250" /><br>
   <b>Iker</b>
 </p> 
 
