@@ -2,7 +2,7 @@
 Bienvenido 👋  
 
 <p align="center">
-  <img src=".github/docs/Ing_Mecatronica/imgs/Multimedia1.jpg" width="300" /><br>
+  <img src="imgs/Multimedia1.jpg" width="300" /><br>
   <b>Adrián</b>
 </p>
 
