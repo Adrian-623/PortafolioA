@@ -2,7 +2,7 @@
 Bienvenido 👋  
 
  <p align="center">
-  <img src="./imgs/Multimedia1.jpg" width="250" /><br>
+  <img src="../imgs/Multimedia1.jpg" width="250" /><br>
   <b>Adrián</b>
 </p> 
 
@@ -29,7 +29,7 @@ Algo de lo cual me siento orgulloso es que cree con mis compañeros un huerto co
  
  
  <p align="center">
-  <img src="./imgs/image.jpg" width="250" /><br>
+  <img src="./imgs/image.png" width="250" /><br>
   <b>Iker</b>
 </p> 
 
