@@ -14,15 +14,15 @@ Algo de lo cual me siento orgulloso es que cree con mis compañeros un huerto co
   - **Mis intereses son:**
     * Jugar videojuegos
       
-    <img src="recursos/imgs/retrocomparador.webp" width="100">
+    <img src="./imgs/retrocomparador.webp" width="100">
     
     * Jugar Basquetbol
     
-     <img src="recursos/imgs/basqu.gif" width="100">
+     <img src="./imgs/basqu.gif" width="100">
      
     * Leer varios géneros de libros
       
-    <img src="recursos/imgs/libro.png" width="100">
+    <img src="./imgs/libro.png" width="100">
 
 - ### **Información de contacto**
 **Email:** 204560@iberopuebla.mx
