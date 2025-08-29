@@ -2,6 +2,6 @@
 Bienvenido 👋 
 
 <p align="center">
-    <img src="/docs/Ing_Mecatronica/imgs/Inegniería.jpg" width="200">
+    <img src="../imgs/Inegniería.jpg" width="200">
 </p>
 
