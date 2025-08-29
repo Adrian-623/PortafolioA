@@ -1,1 +1,3 @@
-# BIENVENIDO A mi paigna usa el menu de la izqueira
+# BIENVENIDO a nuestra páigna 
+
+### Usa el menú de la izquierda para seguir explorando el contenido
