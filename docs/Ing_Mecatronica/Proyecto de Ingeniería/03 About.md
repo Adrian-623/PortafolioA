@@ -36,5 +36,5 @@ En 10 años me veo viviendo una vida plena con un buen trabajo el cual disfrute,
 
 ## **Syllabus**
 
-<a href="./Syllabus/2025-08-28_080744.pdf" target="_blank">Ver PDF</a>
-<a href="./Syllabus/Syllabus Proyectos Ingenieria 1.pdf" target="_blank">Ver PDF</a>
+<a href="Syllabus/2025-08-28_080744.pdf" target="_blank">Ver PDF</a>
+<a href="Syllabus/Syllabus Proyectos Ingenieria 1.pdf" target="_blank">Ver PDF</a>
