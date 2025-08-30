@@ -2,6 +2,6 @@
 Bienvenido 👋 
 
 <p align="center">
-    <img src="../imgs copy/Ingeniria.jpg" width="200">
+    <img src="../imgs copy/Ingenieria.jpg" width="200">
 </p>
 
