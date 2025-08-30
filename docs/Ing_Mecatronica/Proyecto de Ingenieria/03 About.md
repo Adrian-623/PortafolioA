@@ -1,7 +1,7 @@
 # **About**
 
 <p align="center">
-    <img src="../imgs copy/Nosotros.jpg" width="200">
+    <img src="../imgs copy/Nosotros.jpg" width="250">
 </p>
 
 Aquí nos presentaremos ante ustedes:
