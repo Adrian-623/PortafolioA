@@ -8,7 +8,7 @@ Aquí nos presentaremos ante ustedes:
 
 ## **Iker** 
 
-<img src="../imgs copy/image.jpg" width="250" /><br>
+<img src="../imgs copy/image.png" width="250" /><br>
 
 Hola soy Iker Antonio Barrios Rios tengo 18 años, soy originario de Ciudad de México, a los 16 años me mude al estado de Puebla, entre a una escuela de robotica, con la cual gane algunas competencias.
 
