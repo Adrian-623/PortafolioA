@@ -1,14 +1,14 @@
 # **About**
 
 <p align="center">
-    <img src="/docs/Ing_Mecatronica/imgs/Nosotros.jpg" width="200">
+    <img src="../imgs copy/Nosotros.jpg" width="200">
 </p>
 
 Aquí nos presentaremos ante ustedes:
 
 ## **Iker** 
 
-<img src="../Proyecto de Ingeniería/imgs/image.jpg" width="250" /><br>
+<img src="../imgs copy/image.jpg" width="250" /><br>
 
 Hola soy Iker Antonio Barrios Rios tengo 18 años, soy originario de Ciudad de México, a los 16 años me mude al estado de Puebla, entre a una escuela de robotica, con la cual gane algunas competencias.
 
@@ -22,7 +22,7 @@ En 10 años me veo trabajando en alguna empresa grande, posiblemente casado o en
 
 ## **Adrián**
 
-<img src="./imgs/Multimedia1.jpg" width="250" /><br>
+<img src="../imgs copy/Multimedia1.jpg" width="250" /><br>
 
 Hola soy Jorge Adrián Pérez Fernández tengo 18 años, vengo de Hidalgo, en mi último semestre de preparatoria realicé un viaje a La Salle de Oaxaca a competir en un torneo de Interprepas con el equipo de basquetbol representativo de mi escuela.
 
