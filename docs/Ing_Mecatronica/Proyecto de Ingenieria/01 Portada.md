@@ -1,4 +1,4 @@
-# **Proyecto de Ingería** 
+# **Proyecto de Ingeniería** 
 Bienvenido 👋 
 
 <p align="center">
