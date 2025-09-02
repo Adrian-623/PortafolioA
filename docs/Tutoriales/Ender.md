@@ -1,7 +1,7 @@
 # ***Impresora 3D Ender S1 PRO***
 
 <p align="center">
-  <img src="recursos/imgs SB/Ender 3.jpg" width="300" /><br>
+  <img src="../imgs/Ender 3.jpg" width="300" /><br>
   <b>Constituyen el motor principal de la impresión 3D</b>
 </p>
 
@@ -46,6 +46,10 @@ Este software convierte el modelo 3D (un archivo .STL o .OBJ) en un conjunto de 
 * 5.- Ya puedes abrir un modelo 3D}
 
 ## **Reglas de diseño**
-* 
+
+| Regla | Descriçión | Imagen       |
+|-----------:|:-----:|-------------|
+| Sobresaliente|Los salientes se refieren a partes del modelo que <br> se extienden sobre un área sin material debajo de ellos.  | <img src="../imgs/Ender 3.jpg" width="150" /><br>          |
+| MCU Y      | 1     | WiFi/BLE    |
 
 ## **Cómo utilizar la impresora 3D**
