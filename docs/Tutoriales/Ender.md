@@ -57,4 +57,6 @@ Este software convierte el modelo 3D (un archivo .STL o .OBJ) en un conjunto de 
 |Anisotropía|Los objetos impresos pueden tener diferentes resistencias en <br> diferentes direcciones debido a la construcción capa por capa.||
 |Surface Finish |El acabado de superficie está influenciado por la resolución <br> de la impresora, el material y las técnicas de post-procesamiento <br> como lijado o suavización química. ||
 |Limpieza|La limpieza implica el espacio entre las estructuras de soporte <br> y la parte real que se está imprimiendo. El aclaramiento adecuado <br> garantiza que los soportes puedan eliminarse fácilmente sin dañar la <br> impresión, normalmente alrededor de 0,2 mm a 0,5 mm dependiendo <br> del material y la resolución de impresión. ||
+|Infill|El interior de una impresión 3D se llama infill, y se puede ajustar en <br> términos de densidad 0% es hueco, mientras que el 100% es sólido.||
+
 ## **Cómo utilizar la impresora**
