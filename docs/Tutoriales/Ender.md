@@ -103,6 +103,7 @@ Hacer clic en **Slice** (abajo a la derecha)
   * Selecciona la carpeta o directamente la tarjeta microSD
   * **Ventana que aparece:** un aviso de confirmación de guardado
 
-Guardar en la MicroSD 
-  * Selecciona la carpeta o directamente la tarjeta microSD
-  * **Ventana** que aparece: un aviso de confirmación de guardado
+## Preparar la impresora 
+  Aquí empiezas a usar la pantalla de la impresora 
+
+1.- 
