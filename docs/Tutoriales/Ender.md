@@ -60,3 +60,49 @@ Este software convierte el modelo 3D (un archivo .STL o .OBJ) en un conjunto de 
 |Infill|El interior de una impresión 3D se llama infill, y se puede ajustar en <br> términos de densidad 0% es hueco, mientras que el 100% es sólido.||
 
 ## **Cómo utilizar la impresora**
+
+### **Cómo crear y guardar un archivo 3D**
+* 1.- Diseña tu pieza en un programa de modelado (Tinkercad, Fusion 360, Blender, etc.).
+
+* 2.- Cuando termines, guarda en formato .stl:
+
+* 3.- Archivo > Guardar como > STL.
+
+* 4.- Selecciona binario y las unidades en milímetros
+
+Ejemplo: un llavero, un cubo o un soporte sencillo.
+
+### **Preparar el archivo en Ultimaker Cura**
+El .stl necesita convertirse en un archivo G-code, que es lo que la Ender 3 entiende.
+
+* 1.-**Abrir** Cura y añadir la impresora:
+  * **Primera vez**: Aparece un asistente para añadir impresora. Selecciona Creality > Ender 3.
+    * **Ventana que aparece:** panel de Cura con la “cama virtual” (una cuadrícula que simula la cama de impresión).
+  * Configura Creality Ender 3 en el programa.
+  * Ajusta el tamaño de impresión y diámetro del filamento (normalmente 1.75 mm).
+
+* 2.-**Importar tu modelo .stl** 
+  * Arrástralo o usa Archivo > Abrir 
+  * **Ventana que aparece:** el modelo aparece sobre la base virtual en Cura. 
+
+* 3.-**Mover/rotar/escalar** la pieza si es necesario (Localizado en la barra izquierda)
+
+* 4.-**Configurar**:
+  * Material: **PLA** (ideal para principiantes)
+    * Esta en el derecho: Ajustes de impresión (material, altura de capa, relleno, soportes)
+  * Resolución: **0.2 mm** (calidad estándar)
+  * Relleno: **20%** (equilibrio entre resistencia y material)
+  * **Ventana que aparece:** al modificar algo, verás cambios inmediatos en la vista previa.
+
+Hacer clic en **Slice** (abajo a la derecha)
+* **Ventana que aparece:** aparece un resumen con:
+  * Tiempo estimado
+  * Material que usará
+  * Botón Guardar en Disco o Guardar en tarjeta SD 
+* **Guardar en la microSD**
+  * Selecciona la carpeta o directamente la tarjeta microSD
+  * **Ventana que aparece:** un aviso de confirmación de guardado
+
+Guardar en la MicroSD 
+  * Selecciona la carpeta o directamente la tarjeta microSD
+  * **Ventana** que aparece: un aviso de confirmación de guardado
