@@ -103,7 +103,44 @@ Hacer clic en **Slice** (abajo a la derecha)
   * Selecciona la carpeta o directamente la tarjeta microSD
   * **Ventana que aparece:** un aviso de confirmación de guardado
 
-## Preparar la impresora 
+## **Preparar la impresora** 
   Aquí empiezas a usar la pantalla de la impresora 
 
-1.- 
+1.- Inserta la microSD en la impresora
+  * Pantalla que aparece: menú principal con opciones como Prepare, Print, Control
+
+2.- Precalentar la impresora
+  * Ve a Prepare > Preheat PLA
+  * Pantalla que aparece: muestra temperatura de la boquilla y cama subiendo hasta los valores (200 °C / 60 °C aprox.) 
+
+3.-Nivelar la cama (solo la primera vez o si ves fallas)
+  * Ve a Prepare > Auto home 
+  * Luego desactiva motores (Disable steppers) para mover el cabezal a mano
+  * Coloca una hoja entre boquilla y cama en cada esquina y ajusta tornillos
+  * **Pantalla que aparece:** “Home” cuando el cabezal está en posición inicial 
+
+## **Imprimir tu pieza**
+1.- Ve a print
+  * **Pantalla que aparece:** lista de archivos .gcode en tu microSD
+
+2.- Selecciona tu archivo
+  * **Pantalla que aparece:** regresa al “Home” mostrando el nombre del archivo y el estado de calentamiento 
+
+3.- Cuando la impresora llegue a temperatura, inicia la impresión
+  * **Pantalla que aparece:**
+    * Barra de progreso (%)
+    * Tiempo transcurrido y tiempo estimado 
+    * Temp. actual de boquilla y cama 
+
+## **Retirar la pieza**
+1.- Espera a que la cama enfríe (pantalla vuelve al menú “Home”)
+2.- Retira con espátula y corta soportes 
+
+## **Cómo cambiar el filamento**
+También desde la pantalla de la impresora
+
+1.- Calienta la boquilla a 200 °C
+  * Pantalla muestra “Heating…” y luego “Target: 200 °C”
+2.- Saca el filamento viejo presionando el resorte del extrusor y tirando
+3.- Mete el filamento nuevo hasta que salga por la boquilla
+  * La pantalla muestra la temperatura estable y puedes ver salir el material
