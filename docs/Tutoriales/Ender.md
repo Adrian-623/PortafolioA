@@ -34,16 +34,16 @@ Este software convierte el modelo 3D (un archivo .STL o .OBJ) en un conjunto de 
   
 ### **Cómo instalar el software**
 
-* 1.- Ve a la página oficial de **Ultimaker Cura**: https://ultimaker.com/software/ultimaker-cura/
+1.- Ve a la página oficial de **Ultimaker Cura**: https://ultimaker.com/software/ultimaker-cura/
 
-* 2.- Descarga la versión que corresponda a tu sistema operativo (Windows, Mac o Linux)
+2.- Descarga la versión que corresponda a tu sistema operativo (Windows, Mac o Linux)
 
-* 3.- Instala el programa como cualquier otro software (siguiente → siguiente → finalizar) 
+3.- Instala el programa como cualquier otro software (siguiente → siguiente → finalizar) 
 
-* 4.- La primera vez que abras Cura te pedirá que elijas tu impresora.
-    * Busca en la lista “Creality Ender 3 S1 Pro” (si no aparece, puedes seleccionar la “Ender 3 S1” y luego ajustar manualmente los parámetros, pero en versiones recientes ya viene incluida).
+4.- La primera vez que abras Cura te pedirá que elijas tu impresora.
+   * Busca en la lista “Creality Ender 3 S1 Pro” (si no aparece, puedes seleccionar la “Ender 3 S1” y luego ajustar manualmente los parámetros, pero en versiones recientes ya viene incluida).
 
-* 5.- Ya puedes abrir un modelo 3D}
+5.- Ya puedes abrir un modelo 3D}
 
 ## **Reglas de diseño**
 
@@ -62,32 +62,32 @@ Este software convierte el modelo 3D (un archivo .STL o .OBJ) en un conjunto de 
 ## **Cómo utilizar la impresora**
 
 ### **Cómo crear y guardar un archivo 3D**
-* 1.- Diseña tu pieza en un programa de modelado (Tinkercad, Fusion 360, Blender, etc.).
+1.- Diseña tu pieza en un programa de modelado (Tinkercad, Fusion 360, Blender, etc.).
 
-* 2.- Cuando termines, guarda en formato .stl:
+2.- Cuando termines, guarda en formato .stl:
 
-* 3.- Archivo > Guardar como > STL.
+3.- Archivo > Guardar como > STL.
 
-* 4.- Selecciona binario y las unidades en milímetros
+4.- Selecciona binario y las unidades en milímetros
 
 Ejemplo: un llavero, un cubo o un soporte sencillo.
 
 ### **Preparar el archivo en Ultimaker Cura**
 El .stl necesita convertirse en un archivo G-code, que es lo que la Ender 3 entiende.
 
-* 1.-**Abrir** Cura y añadir la impresora:
+1.-**Abrir** Cura y añadir la impresora:
   * **Primera vez**: Aparece un asistente para añadir impresora. Selecciona Creality > Ender 3.
     * **Ventana que aparece:** panel de Cura con la “cama virtual” (una cuadrícula que simula la cama de impresión).
   * Configura Creality Ender 3 en el programa.
   * Ajusta el tamaño de impresión y diámetro del filamento (normalmente 1.75 mm).
 
-* 2.-**Importar tu modelo .stl** 
+2.-**Importar tu modelo .stl** 
   * Arrástralo o usa Archivo > Abrir 
   * **Ventana que aparece:** el modelo aparece sobre la base virtual en Cura. 
 
-* 3.-**Mover/rotar/escalar** la pieza si es necesario (Localizado en la barra izquierda)
+3.-**Mover/rotar/escalar** la pieza si es necesario (Localizado en la barra izquierda)
 
-* 4.-**Configurar**:
+4.-**Configurar**:
   * Material: **PLA** (ideal para principiantes)
     * Esta en el derecho: Ajustes de impresión (material, altura de capa, relleno, soportes)
   * Resolución: **0.2 mm** (calidad estándar)
@@ -134,6 +134,7 @@ Hacer clic en **Slice** (abajo a la derecha)
 
 ## **Retirar la pieza**
 1.- Espera a que la cama enfríe (pantalla vuelve al menú “Home”)
+
 2.- Retira con espátula y corta soportes 
 
 ## **Cómo cambiar el filamento**
@@ -141,6 +142,8 @@ También desde la pantalla de la impresora
 
 1.- Calienta la boquilla a 200 °C
   * Pantalla muestra “Heating…” y luego “Target: 200 °C”
+
 2.- Saca el filamento viejo presionando el resorte del extrusor y tirando
+
 3.- Mete el filamento nuevo hasta que salga por la boquilla
   * La pantalla muestra la temperatura estable y puedes ver salir el material
