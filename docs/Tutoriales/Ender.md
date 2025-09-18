@@ -49,15 +49,15 @@ Este software convierte el modelo 3D (un archivo .STL o .OBJ) en un conjunto de 
 
 | Regla | Descriçión | Imagen       |
 |-----------:|:-----:|-------------|
-| Sobresaliente|Los salientes se refieren a partes del modelo que <br> se extienden sobre un área sin material debajo de ellos.  | <img src="../imgs/Ender 3.jpg" width="150" /><br>          |
-| Ángulo de impresión      | El ángulo en el que se puede imprimir una característica sin soporte.<br> Los ángulos de hasta 45 grados suelen ser manejables sin soporte, pero <br> esto puede variar en función de la tecnología de material e impresión.     |    <img src="../imgs/Ender 3.jpg" width="150" /><br>  |
-|Bridging |Se refiere a abarcar un hueco entre dos partes <br> de una impresión sin soporte debajo.| imagen |
-|Grosor de pared|Las paredes delgadas pueden no imprimirse bien, mientras <br> que las paredes muy gruesas pueden perder material y tiempo. |imagen|
-|Dimensiones|Las dimensiones exactas son cruciales. La impresión 3D puede <br> introducir varianzas debido a problemas de contracción <br> de materiales o calibración de la impresora. |imagen|
-|Anisotropía|Los objetos impresos pueden tener diferentes resistencias en <br> diferentes direcciones debido a la construcción capa por capa.||
-|Surface Finish |El acabado de superficie está influenciado por la resolución <br> de la impresora, el material y las técnicas de post-procesamiento <br> como lijado o suavización química. ||
-|Limpieza|La limpieza implica el espacio entre las estructuras de soporte <br> y la parte real que se está imprimiendo. El aclaramiento adecuado <br> garantiza que los soportes puedan eliminarse fácilmente sin dañar la <br> impresión, normalmente alrededor de 0,2 mm a 0,5 mm dependiendo <br> del material y la resolución de impresión. ||
-|Infill|El interior de una impresión 3D se llama infill, y se puede ajustar en <br> términos de densidad 0% es hueco, mientras que el 100% es sólido.||
+| Sobresaliente|Los salientes se refieren a partes del modelo que <br> se extienden sobre un área sin material debajo de ellos.  | <img src="../imgs/Overhang_3-min.jpg" width="150" /><br>          |
+| Ángulo de impresión      | El ángulo en el que se puede imprimir una característica sin soporte.<br> Los ángulos de hasta 45 grados suelen ser manejables sin soporte, pero <br> esto puede variar en función de la tecnología de material e impresión.     |    <img src="../imgs/AngleOverhang_1-min.jpg" width="150" /><br>  |
+|Bridging |Se refiere a abarcar un hueco entre dos partes <br> de una impresión sin soporte debajo.| <img src="../imgs/brideg1.jpeg" width="300" /><br> |
+|Grosor de pared|Las paredes delgadas pueden no imprimirse bien, mientras <br> que las paredes muy gruesas pueden perder material y tiempo. |<img src="../imgs/thick1.jpeg" width="300" /><br>|
+|Dimensiones|Las dimensiones exactas son cruciales. La impresión 3D puede <br> introducir varianzas debido a problemas de contracción <br> de materiales o calibración de la impresora. |<img src="../imgs/dimen1.jpeg" width="300" /><br>|
+|Anisotropía|Los objetos impresos pueden tener diferentes resistencias en <br> diferentes direcciones debido a la construcción capa por capa.|<img src="../imgs/anisotropy1.jpg" width="300" /><br>|
+|Surface Finish |El acabado de superficie está influenciado por la resolución <br> de la impresora, el material y las técnicas de post-procesamiento <br> como lijado o suavización química. |<img src="../imgs/detail.1" width="300" /><br>|
+|Limpieza|La limpieza implica el espacio entre las estructuras de soporte <br> y la parte real que se está imprimiendo. El aclaramiento adecuado <br> garantiza que los soportes puedan eliminarse fácilmente sin dañar la <br> impresión, normalmente alrededor de 0,2 mm a 0,5 mm dependiendo <br> del material y la resolución de impresión. |<img src="../imgs/Clearance_3-min.jpg" width="300" /><br>|
+|Infill|El interior de una impresión 3D se llama infill, y se puede ajustar en <br> términos de densidad 0% es hueco, mientras que el 100% es sólido.|<img src="../imgs/infill4.jpeg" width="300" /><br>|
 
 ## **Cómo utilizar la impresora**
 
