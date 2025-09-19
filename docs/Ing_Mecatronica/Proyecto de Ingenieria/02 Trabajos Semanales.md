@@ -16,7 +16,7 @@ En el primer trabajo semanal realizamos lo que fue una base para teléfono hecha
 En este caso así fue cómo quedó la pieza ya terminada:
 
 <p align="center">
-    <img src="../Trabajo_1/Pieza.jpg" width="350">
+    <img src="../Trabajo_1/Pieza.jpg" width="300">
 </p>
 
 El equipo y herramientas que utilizamos para hacer la pieza fueron las siguientes:
@@ -24,7 +24,7 @@ El equipo y herramientas que utilizamos para hacer la pieza fueron las siguiente
 ### **Máquina de corte chica**
 
 <p align="center">
-    <img src="../Trabajo_1/Maquina_corte.jpg" width="350">
+    <img src="../Trabajo_1/Maquina_corte.jpg" width="300">
 </p>
 
 Está fue una de las máquinas que utilicé principalmente para hacer los cortes, es una cierra delgada de metal que ayuda a hacer los cortes con facilidad, es para piezas de tamaño pequeñas
@@ -32,7 +32,7 @@ Está fue una de las máquinas que utilicé principalmente para hacer los cortes
 ### **Taladro**
 
 <p align="center">
-    <img src="../Trabajo_1/Taladro.jpg" width="350">
+    <img src="../Trabajo_1/Taladro.jpg" width="300">
 </p>
 
 Está fue utilizada para hacer el orificio en la pieza donde se pueda pasar el cargador del telefono mientras está en la base, aquí se utilizan las brocas, de las cuales hay diferentes tamaños, depende que tan grande quieras hacer el orificio
@@ -40,7 +40,7 @@ Está fue utilizada para hacer el orificio en la pieza donde se pueda pasar el c
 ### **Lijadora** 
 
 <p align="center">
-    <img src="../Trabajo_1/Maquina_corte.jpg" width="350">
+    <img src="../Trabajo_1/Maquina_corte.jpg" width="300">
 </p>
 
 Con está pudimos dar un borde redondo a todas las esquinas de la pieza 
@@ -55,4 +55,4 @@ A lo largo de la clase también aprendimos a utilizar otras herramientas, por ej
 </p>
 
 Y para cortas piezas de metal
-| <img src="../Trabajo_1/Sierra_met_2.jpg" width="250"> | <img src="../Trabajo_1/Sierra_metal.jpg" width="250"> |
+| <img src="../Trabajo_1/Sierra_met_2.jpg" width="200"> | <img src="../Trabajo_1/Sierra_metal.jpg" width="250"> |
