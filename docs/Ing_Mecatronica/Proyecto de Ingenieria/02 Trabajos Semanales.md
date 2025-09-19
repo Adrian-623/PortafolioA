@@ -49,10 +49,10 @@ Con está pudimos dar un borde redondo a todas las esquinas de la pieza
 
 A lo largo de la clase también aprendimos a utilizar otras herramientas, por ejemplo sierras para cortar madera, generalmente piezas aún más grandes
 
-| <img src="../Trabajo_1/Corte_gde_preciso.jpg" width="350"> | <img src="../Trabajo_1/Maquin_corte_gde.jpg" width="350"> |
+| <img src="../Trabajo_1/Corte_gde_preciso.jpg" width="250"> | <img src="../Trabajo_1/Maquin_corte_gde.jpg" width="250"> |
 <p align="center">
     <img src="../Trabajo_1/Sierra.jpg" width="350">
 </p>
 
 Y para cortas piezas de metal
-| <img src="../Trabajo_1/Sierra_met_2.jpg" width="350"> | <img src="../Trabajo_1/Sierra_metal.jpg" width="350"> |
+| <img src="../Trabajo_1/Sierra_met_2.jpg" width="250"> | <img src="../Trabajo_1/Sierra_metal.jpg" width="250"> |
