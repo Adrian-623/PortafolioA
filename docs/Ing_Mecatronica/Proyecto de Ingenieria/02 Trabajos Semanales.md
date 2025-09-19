@@ -54,6 +54,6 @@ A lo largo de la clase también aprendimos a utilizar otras herramientas, por ej
     <img src="../Trabajo_1/Maquin_corte_gde.jpg" width="250">
 </p>
 
-Y para cortas piezas de metal\n
+Y para cortas piezas de metal
 
 | <img src="../Trabajo_1/Sierra_met_2.jpg" width="200"> | <img src="../Trabajo_1/Sierra_metal.jpg" width="250"> |
