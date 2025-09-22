@@ -14,8 +14,6 @@ Aprendimos a utilizar el progama de solidworks para hacer piezas u objetos en 3D
 
 ## **Semana 2** 
 
-<a href="../Syllabus/Tarea1.SLDPRT" target="_blank">Tarea 1 Adrián</a>
-
 En el primer trabajo semanal realizamos lo que fue una base para teléfono hecha de madera
 
 En este caso así fue cómo quedó la pieza ya terminada:
