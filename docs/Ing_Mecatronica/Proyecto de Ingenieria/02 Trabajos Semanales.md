@@ -6,8 +6,13 @@ En este apartado se podrán visualizar los enlaces respectivos a cada trabajo qu
     <img src="../imgs copy/semana.jpg" width="250">
 </p>
 
+## **Semana 1**
 
-## **Trabajo 1** 
+Aprendimos a utilizar el progama de solidworks para hacer piezas u objetos en 3D a partir de planos 2D
+<a href="../Syllabus/Botella.SLDPRT" target="_blank"> Bolleta Adrián</a>
+
+
+## **Semana 2** 
 
 <a href="../Syllabus/Tarea1.SLDPRT" target="_blank">Tarea 1 Adrián</a>
 
@@ -57,3 +62,11 @@ A lo largo de la clase también aprendimos a utilizar otras herramientas, por ej
 Y para cortas piezas de metal
 
 | <img src="../Trabajo_1/Sierra_met_2.jpg" width="200"> | <img src="../Trabajo_1/Sierra_metal.jpg" width="250"> |
+
+
+## **Semana 3** 
+
+<a href="../Syllabus/Ejercicio_2.SLDPRT" target="_blank">Ejercicio 2 Adrián</a>
+
+<a href="../Syllabus/Ejercicio_5.SLDPRT" target="_blank">Ejercicio 5 Adrián</a>
+
