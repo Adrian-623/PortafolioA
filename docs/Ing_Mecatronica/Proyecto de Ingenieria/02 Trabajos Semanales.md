@@ -30,7 +30,7 @@ En este caso así fue cómo quedó la pieza ya terminada:
 
 El equipo y herramientas que utilizamos para hacer la pieza fueron las siguientes:
 
-### **Máquina de corte chica**
+### **Máquina de corte**
 
 <p align="center">
     <img src="../Trabajo_1/Maquina_corte.jpg" width="300">
