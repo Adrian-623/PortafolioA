@@ -25,7 +25,7 @@ En este caso así fue cómo quedó la pieza ya terminada:
 
 **Iker** 
 <p align="center">
-    <img src="../Trabajo_1/PtcIker.jpg" width="300">
+    <img src="../imgs copy/PtcIker.jpg" width="300">
 </p>
 
 El equipo y herramientas que utilizamos para hacer la pieza fueron las siguientes:
@@ -49,7 +49,7 @@ Está fue utilizada para hacer el orificio en la pieza donde se pueda pasar el c
 ### **Lijadora** 
 
 <p align="center">
-    <img src="../Trabajo_1/Lijadora.jpg" width="300">
+    <img src="../imgs copy/Lijadora.jpg" width="300">
 </p>
 
 Con está pudimos dar un borde redondo a todas las esquinas de la pieza 
