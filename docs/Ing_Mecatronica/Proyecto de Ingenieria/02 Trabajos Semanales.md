@@ -10,10 +10,10 @@ En este apartado se podrán visualizar los enlaces respectivos a cada trabajo qu
 
 Aprendimos a utilizar el progama de solidworks para hacer piezas u objetos en 3D a partir de planos 2D
 
-<a href="../Syllabus/Botella.SLDPRT" target="_blank"> Bolleta Adrián</a>
+<a href="../Syllabus/Botella.SLDPRT" target="_blank"> Botella Adrián</a>
 
 <p align="center">
-    <img src="../imgs copy/Botella.png" width="250">
+    <img src="../imgs copy/BotellaImg.png" width="450">
 </p>
 
 La herramienta principla que se utilizó fue "Revolución de saliente/base"
@@ -87,7 +87,7 @@ Y para cortas piezas de metal
 <a href="../Syllabus/Ejercicio_2.SLDPRT" target="_blank">Ejercicio 2 Adrián</a>
 
 <p align="center">
-    <img src="../imgs copy/BotellaImg.png" width="300">
+    <img src="../imgs copy/BotellaImg.png" width="450">
 </p>
 
 Para el ejercicio número 2 aprendimos 4 nuevas herramientas 
@@ -103,10 +103,15 @@ Y nos ayudó a crear otro plano sobre el croquis del cual estabamos trabajando y
 
 
 1.- Para realizar toda la figura dibujamos primero un cuadrado como base
+
 2.- Extruimos el cuadrado
+
 3.- Redondeamos las aristas
+
 4.- Creamos otro plano y dibujamos un circulo en él
+
 5.- Reccubrimos entre la figura ya extruída y el círcula del pano
+
 6.- Al final extruimos el círculo del otro plano para hacer la boquilla
 
 
@@ -114,15 +119,20 @@ Y nos ayudó a crear otro plano sobre el croquis del cual estabamos trabajando y
 <a href="../Syllabus/Ejercicio_5.SLDPRT" target="_blank">Ejercicio 5 Adrián</a>
 
 <p align="center">
-    <img src="../imgs copy/Llave5.png" width="300">
+    <img src="../imgs copy/Llave5.png" width="450">
 </p>
 
 Para este ejercicio hicimos lo siguiente:
 
 1.- Del dibujo base de la vista lateral solo dibujamos la mitad de esa vista y en medio pusimos un eje constructivo
+
 2.- Posteriormente se utilizó la herramienta de "Revolución de saliente/base"
+
 3.- Una vez ya extruída la figura, en la parte trasera dibujamos uno de los círculos para cortar
+
 4.- Ya depués de eso se usó la nueva herramienta de "Matriz circular" ahí se seleccionó que se hiceran los otros 3 círculos
+
 5.- Se extruyeron los cortes de todos los circulos
+
 6.- Finalmente se usó la parte de "Chaflan" para generar esa parte en la parte trasera de la pieza
 
