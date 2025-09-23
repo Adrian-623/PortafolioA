@@ -34,7 +34,7 @@
 </p>
 
 
-<a href="../Iker/floreros.SLDPRT" target="_blank">Florero 3 Adrián</a>
+<a href="../Iker/floreros.SLDPRT" target="_blank">Floreros Iker</a>
 
 <p align="center">
     <img src="../imgsIker/florerosIk.png" width="550">
