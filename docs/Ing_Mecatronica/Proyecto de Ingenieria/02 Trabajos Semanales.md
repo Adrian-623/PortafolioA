@@ -13,7 +13,13 @@ Aprendimos a utilizar el progama de solidworks para hacer piezas u objetos en 3D
 <a href="../Syllabus/Botella.SLDPRT" target="_blank"> Botella Adrián</a>
 
 <p align="center">
-    <img src="../imgs copy/BotellaImg.png" width="450">
+    <img src="../imgs copy/Botella.png" width="550">
+</p>
+
+<a href="../Iker/botellacoca.SLDPRT" target="_blank"> Botella Iker</a>
+
+<p align="center">
+    <img src="../imgsIker/BotellaIk.png" width="550">
 </p>
 
 La herramienta principla que se utilizó fue "Revolución de saliente/base"
@@ -87,8 +93,16 @@ Y para cortas piezas de metal
 <a href="../Syllabus/Ejercicio_2.SLDPRT" target="_blank">Ejercicio 2 Adrián</a>
 
 <p align="center">
-    <img src="../imgs copy/BotellaImg.png" width="450">
+    <img src="../imgs copy/BotellaImg.png" width="550">
 </p>
+
+
+<a href="../Iker/ejercicio2.SLDPRT" target="_blank"> Ejercicio 2 Iker</a>
+
+<p align="center">
+    <img src="../imgsIker/BotellaIk2.png" width="550">
+</p>
+
 
 Para el ejercicio número 2 aprendimos 4 nuevas herramientas 
 
@@ -119,7 +133,13 @@ Y nos ayudó a crear otro plano sobre el croquis del cual estabamos trabajando y
 <a href="../Syllabus/Ejercicio_5.SLDPRT" target="_blank">Ejercicio 5 Adrián</a>
 
 <p align="center">
-    <img src="../imgs copy/Llave5.png" width="450">
+    <img src="../imgs copy/Llave5.png" width="550">
+</p>
+
+<a href="../Iker/ejercicio5.SLDPRT" target="_blank"> Ejercivio 5 Iker</a>
+
+<p align="center">
+    <img src="../imgsIker/LlaveIk.png" width="550">
 </p>
 
 Para este ejercicio hicimos lo siguiente:
