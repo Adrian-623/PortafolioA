@@ -22,7 +22,6 @@ La Ender 3 S1 Pro es muy versátil y soporta varios tipos de filamento:
 
 * PETG **(Tereftalato de Polietileno Glicol)**: Un punto medio: fuerte como el ABS pero fácil de usar como el PLA. Se usa mucho en piezas que necesitan ser resistentes y flexibles (ej. soportes, piezas para casa).
 
-
 * TPU **(poliuretano termoplástico)**: Es flexible, como una goma. Sirve para imprimir llaveros elásticos, fundas, juguetes blandos, etc.
 
 ## **Software que utiliza** 
