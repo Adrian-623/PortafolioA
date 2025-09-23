@@ -1,5 +1,9 @@
 # **Tareas**
 
+<p align="center">
+    <img src="../imgs copy/Tarea.png" width="250">
+</p>
+
 ## **Semana 1** 
 
 <a href="../Syllabus/Tarea1.SLDPRT" target="_blank">Tarea 1 Adrián</a>
