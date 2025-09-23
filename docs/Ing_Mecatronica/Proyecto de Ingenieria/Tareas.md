@@ -13,6 +13,12 @@
     <img src="../imgs copy/Tarea1.png" width="550">
 </p>
 
+<a href="../Iker/Tarea1Ik.SLDPRT" target="_blank">Tarea 1 Iker</a>
+
+<p align="center">
+    <img src="../imgsIker/Tarea1Ik.png" width="550">
+</p>
+
 ## **Semana 3** 
 
 <a href="../Syllabus/Floreros_1.SLDPRT" target="_blank"> Florero 1 Adrián</a>
