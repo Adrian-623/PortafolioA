@@ -46,3 +46,4 @@
     <img src="../imgsIker/florerosIk.png" width="550">
 </p>
 
+<a href="../Syllabus/LogoProyectoing.DXF" target="_blank">Floreros Iker</a>
