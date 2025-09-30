@@ -54,7 +54,7 @@ Este software convierte el modelo 3D (un archivo .STL o .OBJ) en un conjunto de 
 |Grosor de pared|Las paredes delgadas pueden no imprimirse bien, mientras <br> que las paredes muy gruesas pueden perder material y tiempo. |<img src="../imgs/thick1.jpeg" width="300" /><br>|
 |Dimensiones|Las dimensiones exactas son cruciales. La impresión 3D puede <br> introducir varianzas debido a problemas de contracción <br> de materiales o calibración de la impresora. |<img src="../imgs/dimen1.jpeg" width="300" /><br>|
 |Anisotropía|Los objetos impresos pueden tener diferentes resistencias en <br> diferentes direcciones debido a la construcción capa por capa.|<img src="../imgs/anisotropy1.jpg" width="300" /><br>|
-|Surface Finish |El acabado de superficie está influenciado por la resolución <br> de la impresora, el material y las técnicas de post-procesamiento <br> como lijado o suavización química. |<img src="../imgs/detail.1" width="300" /><br>|
+|Surface Finish |El acabado de superficie está influenciado por la resolución <br> de la impresora, el material y las técnicas de post-procesamiento <br> como lijado o suavización química. |<img src="../imgs/detail1.jpeg" width="300" /><br>|
 |Limpieza|La limpieza implica el espacio entre las estructuras de soporte <br> y la parte real que se está imprimiendo. El aclaramiento adecuado <br> garantiza que los soportes puedan eliminarse fácilmente sin dañar la <br> impresión, normalmente alrededor de 0,2 mm a 0,5 mm dependiendo <br> del material y la resolución de impresión. |<img src="../imgs/Clearance_3-min.jpg" width="300" /><br>|
 |Infill|El interior de una impresión 3D se llama infill, y se puede ajustar en <br> términos de densidad 0% es hueco, mientras que el 100% es sólido.|<img src="../imgs/infill4.jpeg" width="300" /><br>|
 
@@ -101,7 +101,7 @@ El .stl necesita convertirse en un archivo G-code, que es lo que la Ender 3 enti
 
 Hacer clic en **Slice** (abajo a la derecha)
 <p align="center">
-<img src="../imgs/Slice" width="300" /><br> 
+<img src="../imgs/Slice.png" width="300" /><br> 
 (Así se ve el modelado utilizando la opción de "Slice")
 </p>
 
