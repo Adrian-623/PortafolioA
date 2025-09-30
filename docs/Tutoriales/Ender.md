@@ -83,8 +83,14 @@ El .stl necesita convertirse en un archivo G-code, que es lo que la Ender 3 enti
 2.-**Importar tu modelo .stl** 
   * Arrástralo o usa Archivo > Abrir 
   * **Ventana que aparece:** el modelo aparece sobre la base virtual en Cura. 
+  <p align="center">
+  <img src="../imgs/AbrirCura.png" width="300" /><br>
+</p>
 
 3.-**Mover/rotar/escalar** la pieza si es necesario (Localizado en la barra izquierda)
+<p align="center">
+  <img src="../imgs/Mover_Rotar.avif" width="300" /><br>
+</p>
 
 4.-**Configurar**:
   * Material: **PLA** (ideal para principiantes)
@@ -94,6 +100,11 @@ El .stl necesita convertirse en un archivo G-code, que es lo que la Ender 3 enti
   * **Ventana que aparece:** al modificar algo, verás cambios inmediatos en la vista previa.
 
 Hacer clic en **Slice** (abajo a la derecha)
+<p align="center">
+<img src="../imgs/Slice" width="300" /><br> 
+(Así se ve el modelado utilizando la opción de "Slice")
+</p>
+
 * **Ventana que aparece:** aparece un resumen con:
   * Tiempo estimado
   * Material que usará
@@ -101,6 +112,10 @@ Hacer clic en **Slice** (abajo a la derecha)
 * **Guardar en la microSD**
   * Selecciona la carpeta o directamente la tarjeta microSD
   * **Ventana que aparece:** un aviso de confirmación de guardado
+<p align="center">
+<img src="../imgs/Guardar.png" width="300" /><br>
+(El docuemnto listo para guardar)
+</p>
 
 ## **Preparar la impresora** 
   Aquí empiezas a usar la pantalla de la impresora 
@@ -141,8 +156,18 @@ También desde la pantalla de la impresora
 
 1.- Calienta la boquilla a 200 °C
   * Pantalla muestra “Heating…” y luego “Target: 200 °C”
+<p align="center">
+<img src="../imgs/Precalentar.png" width="300" /><br>
+</p>
 
-2.- Saca el filamento viejo presionando el resorte del extrusor y tirando
+2.- Saca el filamento viejo presionando el resorte del extrusor y jalandolo (Una vez retirado, cortas la punta del filamento)
+<p align="center">
+<img src="../imgs/Sacarfilamentos.png" width="300" /><br>
+</p>
+
+<p align="center">
+<img src="../imgs/Cortar.png" width="300" /><br>
+</p>
 
 3.- Mete el filamento nuevo hasta que salga por la boquilla
   * La pantalla muestra la temperatura estable y puedes ver salir el material
