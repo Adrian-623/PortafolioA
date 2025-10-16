@@ -10,7 +10,11 @@
 </style>
 </head>
 <body>
-  <h1>Mi Proyecto Tecnológico</h1>
+  <h1 align="center" style="font-family:Georgia; color:#EDEDED;"> Hollow Knight</h1>
   <p>Bienvenido a mi repositorio.</p>
 </body>
 </html>
+
+<p align="center">
+    <img src="../imgs/public.webp" width="100%">
+</p>
