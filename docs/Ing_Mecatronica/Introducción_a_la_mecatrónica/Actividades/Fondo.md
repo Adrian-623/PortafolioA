@@ -42,7 +42,7 @@
 </head>
 <body>
 
-  <h1>Hollow Knight</h1>
+  <h1 align="center" style="font-family:Georgia; color:#EDEDED;"> Hollow Knight</h1>
 
   <p>Bienvenido a mi repositorio.</p>
 
@@ -52,3 +52,6 @@
 
 </body>
 </html>
+
+
+lsdbfbsiofsbdofhsodfbds
