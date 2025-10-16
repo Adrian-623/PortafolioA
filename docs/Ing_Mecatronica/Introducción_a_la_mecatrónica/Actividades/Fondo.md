@@ -14,33 +14,37 @@
     color: #EDEDED;
     text-align: center;
   }
+  p {
+    text-align: center;
+  }
   .imagen-con-degradado {
     position: relative;
-    display: inline-block;
     width: 100%;
+    display: inline-block;
   }
   .imagen-con-degradado img {
     display: block;
     width: 100%;
     height: auto;
   }
-    .imagen-con-degradado::after {
+  /* Degradado solo en los lados izquierdo y derecho */
+  .imagen-con-degradado::after {
     content: "";
     position: absolute;
-    inset: 0;
-    background: radial-gradient(
-      circle at center,
-      transparent 60%, 
-      rgba(0, 0, 0, 0.8) 100%
-    );
-    pointer-events: none
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0,0,0,0.8) 0%, transparent 10%, transparent 90%, rgba(0,0,0,0.8) 100%);
+    pointer-events: none;
   }
 </style>
 </head>
 <body>
 
   <h1>Hollow Knight</h1>
-  <p align="center">Bienvenido a mi repositorio.</p>
+
+  <p>Bienvenido a mi repositorio.</p>
 
   <div class="imagen-con-degradado">
     <img src="../imgs/public.webp" alt="Hollow Knight">
