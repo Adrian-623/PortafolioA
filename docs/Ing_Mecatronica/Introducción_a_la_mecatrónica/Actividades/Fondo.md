@@ -3,7 +3,7 @@
 <head>
 <style>
   body {
-    background-color: #101820; /* fondo oscuro */
+    background-color: #000000ff; /* fondo oscuro */
     color: #f2f2f2;
     font-family: 'Georgia', serif;
   }
