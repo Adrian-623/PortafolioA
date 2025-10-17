@@ -24,7 +24,7 @@
     -1 circuito integrado 555
 
 
-## <span style="color:#00FFFFA;">**Cicuito integrado 555**</span>
+## <span style="color:#0033A0;">**Circuito integrado 555**</span>
 
 El **temporizador 555** es un componente de electrónica que sirve para generar tiempos o señales eléctricas. Puede funcionar de tres formas:
 
@@ -36,7 +36,7 @@ El **temporizador 555** es un componente de electrónica que sirve para generar 
 
 Se usa en temporizadores, luces que parpadean, alarmas y osciladores.
 
-## <span style="color:#00FFFFA;">**Actividad**</span>
+## <span style="color:#0033A0;">**Actividad**</span>
 
 Para la actividad que se no encargó utilizamos la [Calculadora](https://www.digikey.com.mx/es/resources/conversion-calculators/conversion-calculator-555-timer?srsltid=AfmBOorIMn9rovHiLriNQc45qD3LhIHQ_Ve1l8VCfuCqa09MgpDren3H) para el temporizador 555
 
@@ -49,7 +49,7 @@ Una vez que se arma el circuito este se conecta al osciloscopio y se observa en 
 
 Por último se comprobaron los cálculos y el LED dentro del circuito prendía y apagaba cada 4 segundos aproximadamente
 
-## <span style="color:#00FFFFA;">**Evidencia**</span>
+## <span style="color:#0033A0;">**Evidencia**</span>
 
 
 
