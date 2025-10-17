@@ -1,5 +1,5 @@
 <!-- Encabezado principal -->
-<h1 align="center"> <span style="color:#000000;"></span></h1>
+<h1 align="center"> <span style="color:#000000;">Índice de actividades</span></h1>
 <p align="center">
   <i>Innovación, precisión y tecnología de próxima generación.</i>
 </p>
