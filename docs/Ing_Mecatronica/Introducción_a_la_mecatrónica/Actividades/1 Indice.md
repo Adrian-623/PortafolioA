@@ -10,7 +10,27 @@
   
   <ul style="list-style-position: inside; padding-left: 0; margin: 0;"> 
   <li style="margin-bottom:10px;"> 
-  <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/Actividad_1/" style="color:#39FF14; text-decoration:none; font-weight:900;"> Actividad 1 </a> </li> <li style="margin-bottom:10px;"> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/Actividad_2/" style="color:#39FF14; text-decoration:none; font-weight:900;"> Actividad 2 </a> </li> <li style="margin-bottom:10px;"> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/Actividad_3/" style="color:#39FF14; text-decoration:none; font-weight:900;"> Actividad 3 </a> </li> <li style="margin-bottom:10px;"> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/Actividad_4/" style="color:#39FF14; text-decoration:none; font-weight:900;"> Actividad 4 </a> </li> <li style="margin-bottom:10px;"> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/Actividad_5/" style="color:#39FF14; text-decoration:none; font-weight:900;"> Actividad 5 </a> </li> </ul> </div>
+  <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/Actividad_1/" style="color:#39FF14; text-decoration:none; font-weight:900;"> Actividad 1 
+  </a> 
+  </li> 
+  <li style="margin-bottom:10px;"> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/Actividad_2/"
+   style="color:#39FF14; text-decoration:none; font-weight:900;"> Actividad 2 
+  </a> 
+  </li> 
+  <li style="margin-bottom:10px;"> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/Actividad_3/"
+   style="color:#39FF14; text-decoration:none; font-weight:900;"> Actividad 3 
+  </a> 
+  </li> 
+  <li style="margin-bottom:10px;"> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/Actividad_4/"
+   style="color:#39FF14; text-decoration:none; font-weight:900;"> Actividad 4
+   </a>
+   </li> 
+   <li style="margin-bottom:10px;"> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/Actividad_5/"
+    style="color:#39FF14; text-decoration:none; font-weight:900;"> Actividad 5 
+   </a> 
+   </li>
+    </ul> 
+    </div>
 
   <script>
     // Hover efecto para los links

@@ -15,18 +15,17 @@
 
     -Microcontrolador ESP32
     -Cable USB para conexión y carga del código
-    -Protoboard
-    -LED rojo
-    -Resistencia de 330Ω
-    -App Serial Bluetooth Terminal
+    -Puente H
+    -Motor
 
 
-## <span style="color:#0033A0;">**Señales Bluetooth**</span>
+## <span style="color:#0033A0;">**Puente H**</span>
 
-La **ESP32** recibe señales **Bluetooth** mediante su módulo integrado, que le permite **conectarse con otros dispositivos** y **recibir datos inalámbricamente**. Estos datos pueden luego **procesarse o usarse** para controlar distintos componentes electrónicos.
+Un **Puente H** es un circuito electrónico que permite controlar el giro de un motor de corriente continua en ambos sentidos. Con interruptores o transistores, se puede invertir la dirección de la corriente que atraviesa el motor y, con PWM, también controlar su velocidad.
 
+## <span style="color:#0033A0;">**Diagrama puente H**</span>
 <p align="center">
-  <img src="../imgs/Antena.png" width="100%" /><br>
+  <img src="../imgs/PuenteH.png" width="100%" /><br>
   </p> 
 
 ## <span style="color:#0033A0;">**Actividad**</span>
@@ -35,42 +34,15 @@ Al iniciar la actividad se escribió el código correspondiente a lo que quería
 
 ``` codigo
 
-#include "BluetoothSerial.h"
-BluetoothSerial SerialBT;
- 
-const int LED=14;
- 
-void setup() {
-    Serial.begin(115200);
-    SerialBT.begin("Adrian");
-    pinMode(LED, OUTPUT);
-}
- 
-void loop() {
-    if (SerialBT.available()) {
-        String mensaje = SerialBT.readString();
-        Serial.print("Recibido: " + mensaje);
-        Serial.print(mensaje);
- 
-        if (mensaje.toInt()==1) {
-          digitalWrite(LED, HIGH);
-          Serial.print(mensaje + "si");
- 
-        } else if (mensaje.toInt()==0) {
-            digitalWrite(LED, LOW);
-            Serial.print(mensaje + "no");
-        }
-    }
-   // delay(1000);
-}
+
 
 ```
 
-Se abrió la aplicación móvil y se mandaban los mensajes de "1" y "0" para prender y apagar la luz LED 
+Para este código se utilizó principalmente el comando "for" para que pudieramos ir aumentando y disminuyendo la velocidad del motor a un paso considerable para no dañar el motor
 
 ## <span style="color:#0033A0;">**Evidencia**</span>
 
 <video width="100%" controls>
-  <source src="../videos/Bluetooth.mp4" type="video/mp4">
+  <source src="../videos/Motor.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
