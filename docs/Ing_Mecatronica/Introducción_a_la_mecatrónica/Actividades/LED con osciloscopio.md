@@ -1,1 +1,0 @@
-# ***LED con sociloscopio***

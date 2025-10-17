@@ -44,14 +44,17 @@ Después de hacer los cálculos necesarios ya se reunen las restsitencias, capac
 
 Una vez que se arma el circuito este se conecta al osciloscopio y se observa en la pantalla la señal que se recibe, en este caso se ve una señal cuadrada, en la cual representa valores constantes de High y Low, ya que son los valores que se buscan en la actividad
 
->[!NOTE].
->No es la definción exacta de una señal cuadarada, solo es la explicación para este ejercicio
+> .[!NOTE].
+> No es la definción exacta de una señal cuadarada, solo es la explicación para este ejercicio
 
 Por último se comprobaron los cálculos y el LED dentro del circuito prendía y apagaba cada 4 segundos aproximadamente
 
 ## <span style="color:#0033A0;">**Evidencia**</span>
 
-
+<video width="400" controls>
+  <source src="../videos/Act1osciloscopio.mp4" type="video/mp4">
+  Tu navegador no soporta video.
+</video>
 
 
 
