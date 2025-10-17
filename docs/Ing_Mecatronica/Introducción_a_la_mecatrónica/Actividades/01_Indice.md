@@ -6,7 +6,7 @@
 
 ---
 
-- <div Introducción="" a="" la="" mectarónica=""></div>(https://www.digikey.com.mx/es/resources/conversion-calculators/conversion-calculator-555-timer?srsltid=AfmBOorIMn9rovHiLriNQc45qD3LhIHQ_Ve1l8VCfuCqa09MgpDren3H)
+- ## **<span style="color:#0033A0;">Actividades</span>**
     * Subitem A.1
     * Subitem A.2
 - Item B
