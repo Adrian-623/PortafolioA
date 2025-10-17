@@ -1,5 +1,5 @@
 <!-- Encabezado principal -->
-<h1 align="center" style="font-weight: 900; font-family:Georgia; font-size:18px; letter-spacing: 2px;">
+<h1 align="center" style="font-weight: 1500; font-family:Georgia; font-size:18px; letter-spacing: 2px;">
   <span style="color:#FF073A;"> <b>Bienvenidos a nuestra página</b> </span> 
 </h1>
 <p align="center">

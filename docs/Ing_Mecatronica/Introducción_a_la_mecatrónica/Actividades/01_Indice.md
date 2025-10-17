@@ -1,9 +1,8 @@
+<div style="background-color:#0d1117; color:white; padding:20px; border-radius:10px;">
+
 <!-- Encabezado principal -->
 <h1 align="center"> <span style="color:#000000;">Índice de actividades</span></h1>
-<p align="center">
-  <i>Innovación, precisión y tecnología de próxima generación.</i>
-</p>
-
+</div>
 ---
 
 - ## **<span style="color:#0033A0;">Actividades</span>**
