@@ -9,9 +9,8 @@
   <h2 style="color:#39FF14; font-weight:900;">Actividades</h2>
 
   <ul>
-    <li>
-      <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/Actividad_1/" style="color:#39FF14; text-decoration:none;"><h2 style="color:#39FF14; font-weight:900;">Actividade 1</h2>
-      </a>
+    <li><a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/Actividad_1/" style="color:#39FF14; text-decoration:none;"><h2 style="color:#39FF14; font-weight:900;">Actividad 1</h2>
+       </a>
     </li>
     <li>Subitem A.2</li>
   </ul>
