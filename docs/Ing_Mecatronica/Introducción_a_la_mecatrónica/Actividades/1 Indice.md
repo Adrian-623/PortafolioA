@@ -1,13 +1,13 @@
 <!-- Contenedor principal del índice -->
-<div style="background-color:#0d1117; color:#39FF14; padding:40px 20px; text-align:center; width:100%; box-sizing:border-box;">
+<div style="background-color:#0d1117; color:#39FF14; padding:20px; border-radius:10px;>
   <h1 style="font-weight:900; font-family:Consolas; font-size:32px; letter-spacing:2px; margin-bottom:20px; color:#39FF14;">
     Índice de actividades
   </h1>
-  <img src="../imgs/Indice.png" width="220" style="margin-bottom:20px; border-radius:8px;" />
+  <img src="../imgs/Indice.png" width="220" style="margin-bottom:20px; border-radius:8px; border-radius:10px;" />
 </div>
 
 <!-- Listado de actividades -->
-<div style="background-color:#0d1117; color:#39FF14; padding:30px 20px; font-family:Consolas; width:100%; box-sizing:border-box; text-align:center;">
+<div style="background-color:#0d1117; color:#39FF14; padding:20px; font-family:Consolas;">
   <h2 style="font-weight:900; margin-bottom:20px; font-size:24px;">
     Actividades
   </h2>

@@ -12,8 +12,8 @@
   <div style="border:2px solid #0033A0; border-radius:10px; padding:20px; width:300px; background:white;">
     <h2 style="color:#0033A0; font-family:Georgia; text-align:center;"> Introducción a la Mecatrónica</h2>
     <ul>
-      <li> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Introduccion_a_la_Mecatroncia/" style="color:#000000; text-decoration:none;">Introducción a la Mecatrónica</a></li>
-      <li> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/1%20Indice/" style="color:000000; text-decoration:none;">Índice de Actividades</a></li>
+      <li> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Introduccion_a_la_Mecatroncia/" style="color:#E74C3C; text-decoration:none;">Introducción a la Mecatrónica</a></li>
+      <li> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/1%20Indice/" style="color:#E74C3C; text-decoration:none;">Índice de Actividades</a></li>
     </ul>
   </div>
 
@@ -21,10 +21,10 @@
   <div style="border:2px solid #0033A0; border-radius:10px; padding:20px; width:300px; background:white;">
     <h2 style="color:#0033A0; font-family:Georgia; text-align:center;">Proyecto de Ingeniería</h2>
     <ul>
-    <li> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Proyecto%20de%20Ingenieria/01%20Portada/" style="color:#000000; text-decoration:none;">Portada</a></li>
-      <li> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Proyecto%20de%20Ingenieria/03%20About/" style="color:#000000; text-decoration:none;">About</a></li>
-      <li> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Proyecto%20de%20Ingenieria/Indice%20Trabajos%20Semanales/" style="color:#000000; text-decoration:none;">Índice de trabajos semanales</a></li>
-      <li> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Proyecto%20de%20Ingenieria/Proyecto%20FInal/" style="color:#000000; text-decoration:none;">Proyecto Final</a></li>
+    <li> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Proyecto%20de%20Ingenieria/01%20Portada/" style="color:#E74C3C; text-decoration:none;">Portada</a></li>
+      <li> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Proyecto%20de%20Ingenieria/03%20About/" style="color:#E74C3C; text-decoration:none;">About</a></li>
+      <li> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Proyecto%20de%20Ingenieria/Indice%20Trabajos%20Semanales/" style="color:#E74C3C; text-decoration:none;">Índice de trabajos semanales</a></li>
+      <li> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Proyecto%20de%20Ingenieria/Proyecto%20FInal/" style="color:#E74C3C; text-decoration:none;">Proyecto Final</a></li>
     </ul>
   </div>
 
