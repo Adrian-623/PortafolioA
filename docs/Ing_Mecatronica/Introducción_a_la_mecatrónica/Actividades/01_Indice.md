@@ -5,11 +5,11 @@
 ---
 <div style="background-color:#0d1117; color:white; padding:20px; border-radius:10px;">
 
-## <span style="color:#39FF14; font-family:Consolas; font-weight:900;">Actividades</span>
+- ## <span style="color:#39FF14; font-family:Consolas; font-weight:900;">Actividades</span>
 
 - <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/Actividad_1/" 
-     style="color:#0033A0; font-family:Consolas; text-decoration:none; font-size:18px;">
-     Actividad 1
+style="color:#39FF14; font-family:Consolas; text-decoration:none; font-size:18px;">
+Actividad 1
   </a>
 
 
