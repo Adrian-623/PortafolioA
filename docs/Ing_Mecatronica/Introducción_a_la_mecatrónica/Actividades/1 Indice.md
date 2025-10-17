@@ -29,6 +29,8 @@
     style="color:#39FF14; text-decoration:none; font-weight:900;"> Actividad 5 
    </a> 
    </li>
+   <li style="margin-bottom:10px;"> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/Actividad_6/"
+    style="color:#39FF14; text-decoration:none; font-weight:900;"> Actividad 6 
     </ul> 
     </div>
 

@@ -2,8 +2,8 @@
 
 <!-- Encabezado principal -->
 <h1 align="center" style="font-weight: 900; letter-spacing: 2px; font-family:Consolas;">
-  <span style="color:#FF073A;"> <b>Actividad 5:</b> </span> 
-  <span style="color:#228B22;"> <b>Acelerar y desacelerar motor</b> </span>
+  <span style="color:#FF073A;"> <b>Actividad 6:</b> </span> 
+  <span style="color:#228B22;"> <b>Movilidad de servomotor</b> </span>
 </h1>
 <p align="center">
   <i>Introducción a la Mecatrónica</i>
@@ -15,17 +15,16 @@
 
     -Microcontrolador ESP32
     -Cable USB para conexión y carga del código
-    -Puente H
-    -Motor
+    -Servomotor
 
 
 ## <span style="color:#0033A0;">**Puente H**</span>
 
-Un **Puente H** es un circuito electrónico que permite controlar el giro de un motor de corriente continua en ambos sentidos. Con interruptores o transistores, se puede invertir la dirección de la corriente que atraviesa el motor y, con PWM, también controlar su velocidad.
+Un **servomotor** es un motor eléctrico que permite controlar con precisión la posición en base a angulos. Cuenta con un sistema de realimentación (sensor) que ajusta su movimiento según la señal de control.
 
-## <span style="color:#0033A0;">**Diagrama puente H**</span>
+## <span style="color:#0033A0;">**Diagrama Servomotor**</span>
 <p align="center">
-  <img src="../imgs/PuenteH.jpeg" width="100%" /><br>
+  <img src="../imgs/Servo.png" width="100%" /><br>
   </p> 
 
 ## <span style="color:#0033A0;">**Actividad**</span>
@@ -38,11 +37,11 @@ Al iniciar la actividad se escribió el código correspondiente a lo que quería
 
 ```
 
-Para este código se utilizó principalmente el comando "for" para que pudieramos ir aumentando y disminuyendo la velocidad del motor a un paso considerable para no dañar el motor
+La función principal del código es ir aumentando 30 grados consecutivamente hasta llegar a los 180
 
 ## <span style="color:#0033A0;">**Evidencia**</span>
 
 <video width="100%" controls>
-  <source src="../videos/Motor.mp4" type="video/mp4">
+  <source src="../videos/Servo.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
