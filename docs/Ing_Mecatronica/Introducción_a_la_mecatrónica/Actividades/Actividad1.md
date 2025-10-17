@@ -1,12 +1,16 @@
 <!-- Encabezado principal -->
-<h1 align="center"> <span style="color:#FF073A;"> **Actividad 1:** <span style="color:#228B22;">**Circuito integrado 555**</span></h1>
+<h1 align="center" style="font-weight: 900; letter-spacing: 2px;">
+  <span style="color:#FF073A;"> <b>Actividad 1:</b> </span> 
+  <span style="color:#228B22;"> <b>Circuito integrado 555</b> </span>
+</h1>
 <p align="center">
   <i>Introducción a la Mecatrónica</i>
 </p>
 
+
 ---
 
-## -**Materiales**
+## <span style="color:#0033A0;">**Materiales**</span>
 
     -Multímetro
     -Fuente de voltaje
@@ -20,7 +24,7 @@
     -1 circuito integrado 555
 
 
-<h1 ## <span style="color:#00FFFFA;"> **Cicuito integrado 555** /h1>
+## <span style="color:#00FFFFA;"> **Cicuito integrado 555** </span>
 
 El **temporizador 555** es un componente de electrónica que sirve para generar tiempos o señales eléctricas. Puede funcionar de tres formas:
 
@@ -32,7 +36,7 @@ El **temporizador 555** es un componente de electrónica que sirve para generar 
 
 Se usa en temporizadores, luces que parpadean, alarmas y osciladores.
 
-## <span style="color:#00FFFFA;"> **Actividad**
+## <span style="color:#00FFFFA;"> **Actividad** </span>
 
 Para la actividad que se no encargó utilizamos la [Calculadora](https://www.digikey.com.mx/es/resources/conversion-calculators/conversion-calculator-555-timer?srsltid=AfmBOorIMn9rovHiLriNQc45qD3LhIHQ_Ve1l8VCfuCqa09MgpDren3H) para el temporizador 555
 
@@ -45,7 +49,7 @@ Una vez que se arma el circuito este se conecta al osciloscopio y se observa en 
 
 Por último se comprobaron los cálculos y el LED dentro del circuito prendía y apagaba cada 4 segundos aproximadamente
 
-## <span style="color:#00FFFFA;"> **Evidencia**
+## <span style="color:#00FFFFA;"> **Evidencia** </span>
 
 
 
