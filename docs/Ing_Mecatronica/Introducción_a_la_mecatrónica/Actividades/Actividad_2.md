@@ -2,28 +2,22 @@
 
 <!-- Encabezado principal -->
 <h1 align="center" style="font-weight: 900; letter-spacing: 2px;">
-  <span style="color:#FF073A;"> <b>Actividad 1:</b> </span> 
-  <span style="color:#228B22;"> <b>Circuito integrado 555</b> </span>
+  <span style="color:#FF073A;"> <b>Actividad 2:</b> </span> 
+  <span style="color:#228B22;"> <b>Parpadeo LED</b> </span>
 </h1>
 <p align="center">
   <i>Introducción a la Mecatrónica</i>
 </p>
 </div>
-
 ---
 
 ## <span style="color:#0033A0;">**Materiales**</span>
 
-    -Multímetro
-    -Fuente de voltaje
-    -Puntas para fuente
+    -Microcontrolador ESP32
+    -Cable USB para conexión y carga del código
     -Protoboard
-    -Jumpers hembra-hembra
-    -LED verde
-    -1 resistencia de 6.8 KΩ
-    -2 resistencias de 20 KΩ
-    -1 capacitor de 220 µF
-    -1 circuito integrado 555
+    -LED rojo
+    -Resistencia de 330Ω
 
 
 ## <span style="color:#0033A0;">**Circuito integrado 555**</span>
@@ -57,10 +51,3 @@ Por último se comprobaron los cálculos y el LED dentro del circuito prendía y
   <source src="../videos/Act1osciloscopio.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
-
-
-
-
-
-
- 
