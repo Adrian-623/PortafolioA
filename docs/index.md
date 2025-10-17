@@ -2,6 +2,7 @@
 <div style="text-align:center; padding:30px; background:white; border:2px solid #0033A0; border-radius:10px; margin-bottom:30px;">
   <h1 style="font-family:Georgia; font-size:32px; font-weight:900; color:#000;">Bienvenidos a nuestra página</h1>
   <p style="font-family:Verdana, sans-serif; font-size:16px; margin-top:5px; color:#000;">Ingeniería Mecatrónica</p>
+  🤖
 </div>
 
 <!-- Contenedor de tarjetas simplificado con solo contorno azul -->
