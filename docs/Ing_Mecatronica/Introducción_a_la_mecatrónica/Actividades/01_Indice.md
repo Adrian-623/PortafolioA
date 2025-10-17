@@ -11,11 +11,14 @@
   <ul style="list-style-position: inside; padding-left: 20px; margin: 0;">
     <li style="margin-bottom:10px;">
       <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/Actividad_1/"
-         style="color:#39FF14; text-decoration:none; font-weight:900;">
+         style="color:#39FF14; text-decoration:none; font-weight:900; font-family:Consolas;">
         Actividad 1
       </a>
       <ul style="list-style-position: inside; padding-left: 20px; margin-top:5px;">
-        <li style="color:white; font-weight:normal;">Subitem A.2</li>
+        <li tyle="margin-bottom:10px;">
+      <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/Actividad_2/"
+         style="color:#39FF14; text-decoration:none; font-weight:900; font-family:Consolas;">
+        Actividad 2
       </ul>
     </li>
   </ul>

@@ -1,7 +1,7 @@
 <div style="background-color:#0d1117; color:white; padding:20px; border-radius:10px;">
 
 <!-- Encabezado principal -->
-<h1 align="center" style="font-weight: 900; letter-spacing: 2px;">
+<h1 align="center" style="font-weight: 900; letter-spacing: 2px; font-family:Consolas;">
   <span style="color:#FF073A;"> <b>Actividad 1:</b> </span> 
   <span style="color:#228B22;"> <b>Circuito integrado 555</b> </span>
 </h1>
@@ -46,7 +46,7 @@ Después de hacer los cálculos necesarios ya se reunen las restsitencias, capac
 
 Una vez que se arma el circuito este se conecta al osciloscopio y se observa en la pantalla la señal que se recibe, en este caso se ve una señal cuadrada, en la cual representa valores constantes de High y Low, ya que son los valores que se buscan en la actividad
 
-> .[!NOTE].
+> [NOTE]\
 > No es la definción exacta de una señal cuadarada, solo es la explicación para este ejercicio
 
 Por último se comprobaron los cálculos y el LED dentro del circuito prendía y apagaba cada 4 segundos aproximadamente

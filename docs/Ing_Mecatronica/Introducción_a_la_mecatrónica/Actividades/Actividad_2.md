@@ -1,7 +1,7 @@
 <div style="background-color:#0d1117; color:white; padding:20px; border-radius:10px;">
 
 <!-- Encabezado principal -->
-<h1 align="center" style="font-weight: 900; letter-spacing: 2px;">
+<h1 align="center" style="font-weight: 900; letter-spacing: 2px; font-family:Consolas;">
   <span style="color:#FF073A;"> <b>Actividad 2:</b> </span> 
   <span style="color:#228B22;"> <b>Parpadeo LED</b> </span>
 </h1>
@@ -20,34 +20,45 @@
     -Resistencia de 330Ω
 
 
-## <span style="color:#0033A0;">**Circuito integrado 555**</span>
+## <span style="color:#0033A0;">**ESP32**</span>
 
-El **temporizador 555** es un componente de electrónica que sirve para generar tiempos o señales eléctricas. Puede funcionar de tres formas:
+El **ESP32** es un microcontrolador con Wi-Fi y Bluetooth integrados, diseñado para proyectos de electrónica. Destaca por su **bajo consumo de energía**, **alta velocidad de procesamiento** y **gran variedad de pines** para conectar sensores y dispositivos.
 
-    1.Monoestable: produce un pulso de duración fija al recibir una señal
-
-    2. Astable: genera una señal continua como una onda cuadrada (como un parpadeo).
-
-    3.-Biestable: actúa como un interruptor que cambia entre dos estados.
-
-Se usa en temporizadores, luces que parpadean, alarmas y osciladores.
+### <span style="color:#0033A0;">**Esquema de ESP32**</span>
+<p align="center">
+  <img src="../imgs/ESP32.png" width="400" /><br>
+  <b>Diagrama de los pines del microcontrolador</b>
+</p> 
 
 ## <span style="color:#0033A0;">**Actividad**</span>
 
-Para la actividad que se no encargó utilizamos la [Calculadora](https://www.digikey.com.mx/es/resources/conversion-calculators/conversion-calculator-555-timer?srsltid=AfmBOorIMn9rovHiLriNQc45qD3LhIHQ_Ve1l8VCfuCqa09MgpDren3H) para el temporizador 555
+Al iniciar la actividad se escribió el código correspondiente a lo que queríamos que hiciera, el cual es el siguiente:
 
-Después de hacer los cálculos necesarios ya se reunen las restsitencias, capacitores y los materiales necesarios para armar el circuito
+``` codigo
 
-Una vez que se arma el circuito este se conecta al osciloscopio y se observa en la pantalla la señal que se recibe, en este caso se ve una señal cuadrada, en la cual representa valores constantes de High y Low, ya que son los valores que se buscan en la actividad
+#define led 23
+void setup() {
+  pinMode(LED, OUTPUT);
 
-> .[!NOTE].
-> No es la definción exacta de una señal cuadarada, solo es la explicación para este ejercicio
+}
 
-Por último se comprobaron los cálculos y el LED dentro del circuito prendía y apagaba cada 4 segundos aproximadamente
+void loop() {
+  digitalWrite(LED, HIGH); 
+    delay(1000); 
+    digitalWrite(LED, LOW); 
+    delay(1000); 
+}
+
+```
+
+> [NOTE]\
+> Se comprobó que el pin seleccionado fuera un OUTPUT para que pudiera mandar la señal
+
+Después de comprobar el funcionamiento de la ESP32 conectamos todo a la protoboard, y una vez se subió el código se pudo observar que todo funcionaba correctamente
 
 ## <span style="color:#0033A0;">**Evidencia**</span>
 
 <video width="100%" controls>
-  <source src="../videos/Act1osciloscopio.mp4" type="video/mp4">
+  <source src="../videos/Parpadeo.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
