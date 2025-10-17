@@ -1,5 +1,5 @@
 <!-- Encabezado principal -->
-<h1 align="center"> <span style="color:#FF073A;"> Actividad 1: <span style="color:#39FF14;">Circuito integrado 555</span></h1>
+<h1 align="center"> <span style="color:#FF073A;"> **Actividad 1:** <span style="color:#228B22;">**Circuito integrado 555**</span></h1>
 <p align="center">
   <i>Introducción a la Mecatrónica</i>
 </p>
@@ -20,7 +20,7 @@
     -1 circuito integrado 555
 
 
-## <span style="color:#00FFFFA;"> **Cicuito integrado 555**
+<h1 ## <span style="color:#00FFFFA;"> **Cicuito integrado 555** /h1>
 
 El **temporizador 555** es un componente de electrónica que sirve para generar tiempos o señales eléctricas. Puede funcionar de tres formas:
 
