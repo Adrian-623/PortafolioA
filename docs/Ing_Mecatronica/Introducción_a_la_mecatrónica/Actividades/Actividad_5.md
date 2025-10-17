@@ -2,8 +2,8 @@
 
 <!-- Encabezado principal -->
 <h1 align="center" style="font-weight: 900; letter-spacing: 2px; font-family:Consolas;">
-  <span style="color:#FF073A;"> <b>Actividad 4:</b> </span> 
-  <span style="color:#228B22;"> <b>Encender LED con señal Bluetooth</b> </span>
+  <span style="color:#FF073A;"> <b>Actividad 5:</b> </span> 
+  <span style="color:#228B22;"> <b>Acelerar y desacelerar motor</b> </span>
 </h1>
 <p align="center">
   <i>Introducción a la Mecatrónica</i>

@@ -3,7 +3,7 @@
 <!-- Encabezado principal -->
 <h1 align="center" style="font-weight: 900; letter-spacing: 2px; font-family:Consolas;">
   <span style="color:#FF073A;"> <b>Actividad 2:</b> </span> 
-  <span style="color:#228B22;"> <b>Parpadeo LED</b> </span>
+  <span style="color:#228B22;"> <b>Parpadeo de LED</b> </span>
 </h1>
 <p align="center">
   <i>Introducción a la Mecatrónica</i>
@@ -26,7 +26,7 @@ El **ESP32** es un microcontrolador con Wi-Fi y Bluetooth integrados, diseñado 
 
 ### <span style="color:#0033A0;">**Esquema de ESP32**</span>
 <p align="center">
-  <img src="../imgs/ESP32.png" width="400" /><br>
+  <img src="../imgs/ESP32.png" width="100%" /><br>
   <b>Diagrama de los pines del microcontrolador</b>
 </p> 
 

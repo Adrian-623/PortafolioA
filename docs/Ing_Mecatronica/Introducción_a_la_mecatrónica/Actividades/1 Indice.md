@@ -1,6 +1,10 @@
 <div style="background-color:#0d1117; color:white; padding:20px; border-radius:10px;">
 
 <h1 align="center"> <span style="color:#39FF14; font-weight: 900; font-family:Consolas; font-size:30px; letter-spacing: 2px;">Índice de actividades</span></h1>
+
+<p align="center">
+  <img src="../imgs/Indice.png" width="400" /><br>
+</p> 
 </div>
 ---
 
