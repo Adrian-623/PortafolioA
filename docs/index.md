@@ -12,7 +12,7 @@
 
 - ## [**<span style="color:#0033A0;">Introducción a la Mecatrónica</span>**](https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Introduccion_a_la_Mecatroncia/)
 
-    * ### [<span style="color:#0033A0;">Índice de actividades</span>](https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/1_Indice/)
+    * ### [<span style="color:#0033A0;">Índice de actividades</span>](https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/1%20Indice/)
 
 - ## [**<span style="color:#0033A0;">Proyecto de Ingeniería</span>**](https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Proyecto%20de%20Ingenieria/01%20Portada/)
 

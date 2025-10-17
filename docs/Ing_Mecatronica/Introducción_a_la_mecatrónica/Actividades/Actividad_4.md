@@ -26,7 +26,7 @@
 La **ESP32** recibe señales **Bluetooth** mediante su módulo integrado, que le permite **conectarse con otros dispositivos** y **recibir datos inalámbricamente**. Estos datos pueden luego **procesarse o usarse** para controlar distintos componentes electrónicos.
 
 <p align="center">
-  <img src="../imgs/Antena.png" width="100%" /><br>
+  <img src="../imgs/Antena.png" width="250" /><br>
   </p> 
 
 ## <span style="color:#0033A0;">**Actividad**</span>
@@ -70,7 +70,7 @@ Se abrió la aplicación móvil y se mandaban los mensajes de "1" y "0" para pre
 
 ## <span style="color:#0033A0;">**Evidencia**</span>
 
-<video width="100%" controls>
+<video width="300" controls>
   <source src="../videos/Bluetooth.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>

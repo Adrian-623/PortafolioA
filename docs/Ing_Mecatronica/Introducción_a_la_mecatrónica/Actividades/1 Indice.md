@@ -3,7 +3,7 @@
 <h1 align="center"> <span style="color:#39FF14; font-weight: 900; font-family:Consolas; font-size:30px; letter-spacing: 2px;">Índice de actividades</span></h1>
 
 <p align="center">
-  <img src="../imgs/Indice.png" width="400" /><br>
+  <img src="../imgs/Indice.png" width="200" /><br>
 </p> 
 </div>
 ---
@@ -12,23 +12,37 @@
 
   <h2 style="color:#39FF14; font-weight:900; margin-bottom:10px;">Actividades</h2>
 
-  <ul style="list-style-position: inside; padding-left: 20px; margin: 0;">
+  <ul style="list-style-position: inside; padding-left: 0; margin: 0;">
     <li style="margin-bottom:10px;">
       <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/Actividad_1/"
-         style="color:#39FF14; text-decoration:none; font-weight:900; font-family:Consolas;">
+         style="color:#39FF14; text-decoration:none; font-weight:900;">
         Actividad 1
       </a>
-      <ul style="list-style-position: inside; padding-left: 20px; margin-top:5px;">
-        <li tyle="margin-bottom:10px;">
+    </li>
+    <li style="margin-bottom:10px;">
       <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/Actividad_2/"
-         style="color:#39FF14; text-decoration:none; font-weight:900; font-family:Consolas;">
+         style="color:#39FF14; text-decoration:none; font-weight:900;">
         Actividad 2
-      </ul>
+      </a>
+    </li>
+    <li style="margin-bottom:10px;">
+      <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/Actividad_3/"
+         style="color:#39FF14; text-decoration:none; font-weight:900;">
+        Actividad 3
+      </a>
+    </li>
+    <li style="margin-bottom:10px;">
+      <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/Actividad_4/"
+         style="color:#39FF14; text-decoration:none; font-weight:900;">
+        Actividad 4
+      </a>
+    </li>
+    <li style="margin-bottom:10px;">
+      <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/Actividad_5/"
+         style="color:#39FF14; text-decoration:none; font-weight:900;">
+        Actividad 5
+      </a>
     </li>
   </ul>
 
 </div>
-
-
-
-        
