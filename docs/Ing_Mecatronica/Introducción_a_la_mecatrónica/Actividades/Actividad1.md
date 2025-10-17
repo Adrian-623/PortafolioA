@@ -51,7 +51,7 @@ Por último se comprobaron los cálculos y el LED dentro del circuito prendía y
 
 ## <span style="color:#0033A0;">**Evidencia**</span>
 
-<video width="400" controls>
+<video width="100%" controls>
   <source src="../videos/Act1osciloscopio.mp4" type="video/mp4">
   Tu navegador no soporta video.
 </video>
