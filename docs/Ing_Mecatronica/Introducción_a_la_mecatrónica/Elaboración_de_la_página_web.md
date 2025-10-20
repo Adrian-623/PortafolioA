@@ -26,7 +26,6 @@ Pasos a seguir:
 
 - Si queremos editar el menú de Home necesitamos editar el menú de Home, se debe editar el archivo de "index.md"
 
-> Note
 > Para que toda la página funcione siempre debe existir el archivo de "index.md"
 
 - Para varios comandos que se utilizaron en la página se consiguieron el archivo de "comandos.md", el cual viene por defecto 
