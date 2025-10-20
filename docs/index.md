@@ -14,7 +14,7 @@
     <ul>
       <li> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Introduccion_a_la_Mecatroncia/" style="color:#E74C3C; text-decoration:none;">Introducción a la Mecatrónica</a></li>
       <li> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/1%20Indice/" style="color:#E74C3C; text-decoration:none;">Índice de Actividades</a></li>
-      <li> <a href="" style="color:#E74C3C; text-decoration:none;">Elaboración de la  página web</a></li>
+      <li> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Elaboraci%C3%B3n_de_la_p%C3%A1gina_web/" style="color:#E74C3C; text-decoration:none;">Elaboración de la  página web</a></li>
     </ul>
   </div>
 
