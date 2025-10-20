@@ -22,7 +22,7 @@ Pasos a seguir:
 5. Para modificar la página se ingresa a la parte del código, luego se da clic con la tecla de "." y abre el editor de Visual Studio local
 6. Después nos dirigimos a la parte de "Control de código fuente", nombramos el cambio del código y se actualiza la página
 
-## Si gustas editar: 
+## Si se gusta editar: 
 
 - Si queremos editar el menú de Home necesitamos editar el menú de Home, se debe editar el archivo de "index.md"
 
@@ -38,25 +38,39 @@ Pasos a seguir:
 - Para los recuadros donde se pone texto se utilizaron los comandes de "div", "style", "text-align", "padding", "background", "border" "solid", "border-radius", "margin-bottom"
 
 > "Div": Crea un contenedor
+
 > "Style": Aplica estilos al div
+
 > "Text-align": Centra el texto
+
 > "Padding": Espacio entre el borde y el texto
+
 > "Bakcground: El color del fondo
+
 > "Border": Grosor del borde
+
 > "Border radius": Redondea las esquinas
+
 > "Margin bottom": Espacio debajo del contenedor
 
 - Para el índice se utilizaron "display", "flex-wrap", "justify-content", "gap"
 
 > "Display": Coloca los elementos en fila
+
 > "Flex-wrap": Permite que los elementos bajen a otra línea si no caben
+
 > "Justify-content": Centra todas las tarjetas horizontalmente
+
 > "Gap": Espacio entre tarjetas
 
 - Para generar color en las palabras del índice cuando se pone el curso encima se usó "const links = document.querySelectorAll", "links.forEach(link =>{}", "link.addEventListener('mouseover', ...)", "link.style.color", "link.addEventListener", "</ script>"
 
 > "Const links: document.querySelectorAll": Selecciona todos los enlaces de la página
+
 > "links.forEach(link => {}": Recorre cada enlace encontrado
+
 > "link.addEventListener('mouseover', ...)": Detecta cuando el mouse pasa encima del enlace
+
 > "link.style.color": Cambia el color del texto el mouse está encima
+
 > "link.addEventListener('mouseout', ...)": Cambia el color de nuevo
