@@ -33,15 +33,39 @@ Al iniciar la actividad se escribió el código correspondiente a lo que quería
 
 ``` codigo
 
+#define pwm 12 
+
+int duty = 0;
+int grados = 0;
+
+void setup() {
+  Serial.begin(115200);
+
+    // Parámetros: (pin, frecuencia, resolución, canal)
+  ledcAttachChannel(pwm, 50, 12, 0); // 50 Hz para servo, 12 bits, canal 0
+
+  Serial.println("Inicio del programa: Servo de 0° a 180° en pasos de 30°");
+}
+
+void loop() {
+
+  // Recorre de 0 a 180 en pasos de 30°
+  for (grados = 0; grados <= 180; grados += 30) {
+    duty = map(grados, 0, 180, 205, 410);
+    ledcWrite(pwm, duty);
+
+    Serial.print("Ángulo: ");
+    Serial.print(grados);
+    Serial.print("Duty: ");
+    Serial.println(duty);
+
+    delay(1000); 
+  }
+
+  }
 
 
 ```
 
 La función principal del código es ir aumentando 30 grados consecutivamente hasta llegar a los 180
 
-## <span style="color:#0033A0;">**Evidencia**</span>
-
-<video width="100%" controls>
-  <source src="../videos/Servo.mp4" type="video/mp4">
-  Tu navegador no soporta video.
-</video>
