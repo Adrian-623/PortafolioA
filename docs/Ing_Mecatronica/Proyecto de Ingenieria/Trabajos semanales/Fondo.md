@@ -57,4 +57,22 @@ Hacer un boceto con una pieza que no pueda ser fabricada por medios extractivos,
 
 Decidí hacer al personaje del "caballero" del videojuego "Hollow Knight", pero para que pudiera aplicar a los requisitos de ser fabricado por medios extractivos, a las extremidades les otorgué articulaciones para que tuvieran movilidad 
 
-1.- El primer paso que realicé para hacer el modelado de mi figura fue buscar una imagen del personaje y la puse a escala en Solidworks 
+- Pasos 
+
+* 1.- El primer paso que realicé para hacer el modelado de mi figura fue buscar una imagen del personaje y la puse a escala en Solidworks 
+
+* 2.- Una vez colocalada la imagen, calqué la cabeza y la extruí, para la parte del centro fue con la opción de revolución y los cuernos fue con extrusión normal y luego se redondearon
+
+Para finalizar con la cabeza en la parte posterior se extruyó el corte para poder unir la cabeza con el cuerpo
+
+* 3.- Para la parte del cuerpo se hicieron 2 círculos, uno en cada plano de manera vertical y se usó Recubrir para hacer un cono, después el redondeo, porque el cuerpo es redondo, no hay muchas partes planas
+
+Después se extruyó desde la parte superior un círculo para poder introducirlo en la cabeza y en la capa
+
+Además de que con la herramienta de Saliente por barrido se hicier las partes de "cadenas" para formar las articulaciones, se hicieron para las 2 piernas y un solo brazo
+
+* 4.- Ahora para la capa se extruyó un círculo con un agujero en el centro para ser introducido en la saliente del cuerpo
+
+Para la parte de la forma de la capa, en un plano horizontal tracé son Spline la forma cerrandola con el círculo que se extruyó anteriormente, y esa forma la extruí con la opción de Revolución pero no por completo para dejar un espacio para el brazo
+
+* 5.- 
