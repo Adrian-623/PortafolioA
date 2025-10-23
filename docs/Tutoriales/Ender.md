@@ -46,7 +46,7 @@ Este software convierte el modelo 3D (un archivo .STL o .OBJ) en un conjunto de 
 
 ## **Reglas de diseño**
 
-| Regla | Descriçión | Imagen       |
+| Regla | Descripción | Imagen       |
 |-----------:|:-----:|-------------|
 | Sobresaliente|Los salientes se refieren a partes del modelo que <br> se extienden sobre un área sin material debajo de ellos.  | <img src="../imgs/Overhang_3-min.jpg" width="150" /><br>          |
 | Ángulo de impresión      | El ángulo en el que se puede imprimir una característica sin soporte.<br> Los ángulos de hasta 45 grados suelen ser manejables sin soporte, pero <br> esto puede variar en función de la tecnología de material e impresión.     |    <img src="../imgs/AngleOverhang_1-min.jpg" width="150" /><br>  |

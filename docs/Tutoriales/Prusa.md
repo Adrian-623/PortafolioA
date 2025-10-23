@@ -1,4 +1,4 @@
-# ***Impresora 3D Ender S1 PRO***
+# ***Impresora 3D Prusa MK4S***
 
 <p align="center">
   <img src="../imgspr/Prusa.webp" width="300" /><br>
@@ -16,9 +16,10 @@ La **Prusa MK4S** es compatible con una gran variedad de materiales gracias a su
 Los materiales son:
 
 | Material | Descripción | Temp. boquilla/cama | Dificultad | Recomendación |
+|-----------:|:-----:|;-------------;|;--------;|-----------|
 | PLA |Fácil de imprimir, ideal para principiantes | 200 °C / 60 °C | Fácil | Figuras, prototipos, piezas decorativas |
 | PETG | Más resistente y flexible que el PLA | 240 °C / 85 °C | Media | Piezas funcionales y exteriores | 
 | ABS | Resistente al calor, algo más difícil de imprimir | 250 °C / 100 °C | Díficil | Piezas mecánicas o expuestas al calor|
-| ASA |
-| TPU |
+| ASA | Similar al ABS, pero más estable frente a rayos UV | 255 °C / 100 °C | Difícil | Piezas para exteriores |
+| TPU | Material elástico y blando, además de ser flexible | 230 °C / 60 °C | Media | Protectores, juntas, fundas |
 | Nylon | 
