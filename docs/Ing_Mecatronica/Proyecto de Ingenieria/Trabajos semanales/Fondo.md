@@ -42,9 +42,9 @@
 </head>
 <body>
 
-  <h1 align="center" style="font-family:Georgia; color:#EDEDED;"> Hollow Knight</h1>
+  <h1 align="center" style="font-family:Georgia; color:#EDEDED;"> Semana 5</h1>
 
-  <p>Bienvenido a mi repositorio.</p>
+  <p>Proyecto de ingeniería</p>
 
   <div class="imagen-con-degradado">
     <img src="../imgs copy/public.webp" alt="Hollow Knight">
@@ -53,5 +53,8 @@
 </body>
 </html>
 
+Hacer un boceto con una pieza que no pueda ser fabricada por medios extractivos, modelar la pieza en Solidworks e imprimir la pieza para la siguiente semana
 
-lsdbfbsiofsbdofhsodfbds
+Decidí hacer al personaje del "caballero" del videojuego "Hollow Knight", pero para que pudiera aplicar a los requisitos de ser fabricado por medios extractivos, a las extremidades les otorgué articulaciones para que tuvieran movilidad 
+
+1.- El primer paso que realicé para hacer el modelado de mi figura fue buscar una imagen del personaje y la puse a escala en Solidworks 
