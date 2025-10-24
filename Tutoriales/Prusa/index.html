@@ -1,0 +1,1642 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Ender/">
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
+    
+    
+      
+        <title>Impresora 3D Prusa MK4S - Plantilla para Documentación</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.2/css/all.css">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#impresora-3d-prusa-mk4s" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Plantilla para Documentación" class="md-header__button md-logo" aria-label="Plantilla para Documentación" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Plantilla para Documentación
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Impresora 3D Prusa MK4S
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Plantilla para Documentación" class="md-nav__button md-logo" aria-label="Plantilla para Documentación" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Plantilla para Documentación
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Ing Mecatronica
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Ing Mecatronica
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Introducción a la mecatrónica
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Introducción a la mecatrónica
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Elaboraci%C3%B3n_de_la_p%C3%A1gina_web/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Elaboración de la página web
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Introduccion_a_la_Mecatroncia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introducción a la mecatrónica
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1_3" id="__nav_2_1_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Actividades
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_3">
+            <span class="md-nav__icon md-icon"></span>
+            Actividades
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/1%20Indice/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    1 Indice
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/Actividad_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Actividad 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/Actividad_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Actividad 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/Actividad_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Actividad 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/Actividad_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Actividad 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/Actividad_5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Actividad 5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ing_Mecatronica/Introducci%C3%B3n_a_la_mecatr%C3%B3nica/Actividades/Actividad_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Actividad 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Proyecto de Ingenieria
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Proyecto de Ingenieria
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ing_Mecatronica/Proyecto%20de%20Ingenieria/01%20Portada/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Proyecto de Ingeniería
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ing_Mecatronica/Proyecto%20de%20Ingenieria/03%20About/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    About
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ing_Mecatronica/Proyecto%20de%20Ingenieria/Proyecto%20FInal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Proyecto Final
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ing_Mecatronica/Proyecto%20de%20Ingenieria/Tareas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tareas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_5" id="__nav_2_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Trabajos semanales
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            Trabajos semanales
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ing_Mecatronica/Proyecto%20de%20Ingenieria/Trabajos%20semanales/01_%C3%8Dndice/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Trabajos Semanales
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ing_Mecatronica/Proyecto%20de%20Ingenieria/Trabajos%20semanales/Fondo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fondo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ing_Mecatronica/Proyecto%20de%20Ingenieria/Trabajos%20semanales/Semana_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Semana 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ing_Mecatronica/Proyecto%20de%20Ingenieria/Trabajos%20semanales/Semana_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Semana 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ing_Mecatronica/Proyecto%20de%20Ingenieria/Trabajos%20semanales/Semana_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Semana 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ing_Mecatronica/Proyecto%20de%20Ingenieria/Trabajos%20semanales/Semana_4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Semana 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ing_Mecatronica/Proyecto%20de%20Ingenieria/Trabajos%20semanales/Semana_5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Semana 5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ing_Mecatronica/Proyecto%20de%20Ingenieria/Trabajos%20semanales/Semana_6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Semana 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ing_Mecatronica/Proyecto%20de%20Ingenieria/Trabajos%20semanales/Semana_7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Semana 7
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tutoriales
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Tutoriales
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ender/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Impresora 3D Ender S1 PRO
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Impresora 3D Prusa MK4S
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Impresora 3D Prusa MK4S
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#materiales-que-puede-usar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Materiales que puede usar
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#componentes-principales-de-la-prusa-mk4s" class="md-nav__link">
+    <span class="md-ellipsis">
+      Componentes principales de la Prusa MK4S
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software-de-laminado-prusaslicer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Software de laminado: PrusaSlicer
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Software de laminado: PrusaSlicer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pasos-basicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pasos básicos:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preparacion-y-calibracion-inicial" class="md-nav__link">
+    <span class="md-ellipsis">
+      Preparación y calibración inicial
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cargar-o-cambiar-el-filamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cargar o cambiar el filamento
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iniciar-una-impresion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Iniciar una impresión
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#retirar-la-pieza-impresa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Retirar la pieza impresa
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mantenimiento-basico" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mantenimiento básico
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resolucion-de-problemas-comunes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resolución de problemas comunes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recomendaciones-finales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recomendaciones finales
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#materiales-que-puede-usar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Materiales que puede usar
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#componentes-principales-de-la-prusa-mk4s" class="md-nav__link">
+    <span class="md-ellipsis">
+      Componentes principales de la Prusa MK4S
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software-de-laminado-prusaslicer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Software de laminado: PrusaSlicer
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Software de laminado: PrusaSlicer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pasos-basicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pasos básicos:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preparacion-y-calibracion-inicial" class="md-nav__link">
+    <span class="md-ellipsis">
+      Preparación y calibración inicial
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cargar-o-cambiar-el-filamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cargar o cambiar el filamento
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iniciar-una-impresion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Iniciar una impresión
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#retirar-la-pieza-impresa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Retirar la pieza impresa
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mantenimiento-basico" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mantenimiento básico
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resolucion-de-problemas-comunes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resolución de problemas comunes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recomendaciones-finales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Recomendaciones finales
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="impresora-3d-prusa-mk4s"><strong><em>Impresora 3D Prusa MK4S</em></strong></h1>
+<p align="center">
+  <img src="../imgspr/Prusa.webp" width="300" /><br>
+  <b>Constituyen el motor principal de la impresión 3D</b>
+</p>
+
+<p>La <strong>Prusa MK4S</strong> es una impresora 3D ideal para principiantes gracias a su facilidad de uso, fiabilidad y excelente calidad de impresión. Su sistema de <strong>autonivelación automática con sensor de carga</strong>, su <strong>asistente de calibración</strong>, y el software <strong>PrusaSlicer</strong> hacen que cualquier persona pueda imprimir sin experiencia previa. Desde el primer encendido, la impresora guía al usuario paso a paso, evitando los errores comunes y logrando resultados profesionales con poco esfuerzo.</p>
+<p>Además, su funcionamiento silencioso, su mantenimiento sencillo y la gran comunidad que la respalda convierten a la MK4S en una impresora práctica, segura y lista para crear desde el primer día. Es perfecta para aprender los fundamentos de la impresión 3D mientras obtienes resultados de alta calidad.</p>
+<h2 id="materiales-que-puede-usar"><strong>Materiales que puede usar</strong></h2>
+<p>La <strong>Prusa MK4S</strong> es compatible con una gran variedad de materiales gracias a su boquilla de alta temperatura y cama calefactable (dispone de un dispositivo para aumentar de temperatura). Esto te permite trabajar desde proyectos simples hasta piezas resistentes o flexibles.</p>
+<p>Los materiales son:</p>
+<table>
+<thead>
+<tr>
+<th>Material</th>
+<th>Descripción</th>
+<th>Temp. boquilla/cama</th>
+<th>Dificultad</th>
+<th>Recomendación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PLA</td>
+<td>Fácil de imprimir, ideal para principiantes</td>
+<td>200 °C / 60 °C</td>
+<td>Fácil</td>
+<td>Figuras, prototipos, piezas decorativas</td>
+</tr>
+<tr>
+<td>PETG</td>
+<td>Más resistente y flexible que el PLA</td>
+<td>240 °C / 85 °C</td>
+<td>Media</td>
+<td>Piezas funcionales y exteriores</td>
+</tr>
+<tr>
+<td>ABS</td>
+<td>Resistente al calor, algo más difícil de imprimir</td>
+<td>250 °C / 100 °C</td>
+<td>Difícil</td>
+<td>Piezas mecánicas o expuestas al calor</td>
+</tr>
+<tr>
+<td>ASA</td>
+<td>Similar al ABS, pero más estable frente a rayos UV</td>
+<td>255 °C / 100 °C</td>
+<td>Difícil</td>
+<td>Piezas para exteriores</td>
+</tr>
+<tr>
+<td>TPU</td>
+<td>Material elástico y blando, además de ser flexible</td>
+<td>230 °C / 60 °C</td>
+<td>Media</td>
+<td>Protectores, juntas, fundas</td>
+</tr>
+<tr>
+<td>Nylon</td>
+<td>Muy resistente, duradero y algo flexible</td>
+<td>260 °C / 90 °C</td>
+<td>Difícil</td>
+<td>Engranajes, bisagras, piezas mecánicas</td>
+</tr>
+</tbody>
+</table>
+<h2 id="componentes-principales-de-la-prusa-mk4s"><strong>Componentes principales de la Prusa MK4S</strong></h2>
+<p>Antes de comenzar a imprimir, es importante conocer las partes más relevantes de la impresora:</p>
+<table>
+<thead>
+<tr>
+<th>Componente</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Extrusor Nextruder</strong></td>
+<td>Sistema de extrusión avanzado con sensor de carga que detecta la presión durante la impresión. Permite una calibración automática precisa.</td>
+</tr>
+<tr>
+<td><strong>Boquilla (Nozzle)</strong></td>
+<td>Calienta el filamento hasta fundirlo y depositarlo capa por capa. Temperatura máxima: 300 °C.</td>
+</tr>
+<tr>
+<td><strong>Cama calefactora (heatbed)</strong></td>
+<td>Superficie donde se imprime el modelo. Mantiene el calor para una buena adherencia. Temperatura máxima: 120 °C.</td>
+</tr>
+<tr>
+<td><strong>Pantalla táctil a color</strong></td>
+<td>Interfaz principal. Permite navegar por menús, iniciar impresiones y cambiar parámetros.</td>
+</tr>
+<tr>
+<td><strong>Sensores de carga y autocalibración</strong></td>
+<td>Detectan automáticamente la posición de la boquilla y nivelan la cama sin intervención manual.</td>
+</tr>
+<tr>
+<td><strong>Fuente de poder y placa base 32 bits</strong></td>
+<td>Controlan todos los componentes eléctricos.</td>
+</tr>
+<tr>
+<td><strong>Estructura de aluminio y varillas Z</strong></td>
+<td>Aseguran precisión y estabilidad durante el movimiento del cabezal.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="software-de-laminado-prusaslicer"><strong>Software de laminado: PrusaSlicer</strong></h2>
+<p>El software <strong>PrusaSlicer</strong> convierte tu modelo 3D en instrucciones que la impresora entiende (<strong>G-code</strong>).</p>
+<h3 id="pasos-basicos">Pasos básicos:</h3>
+<ol>
+<li>Abre <strong>PrusaSlicer</strong>.</li>
+<li>Selecciona la impresora: <strong>Original Prusa MK4S</strong>.</li>
+<li>Carga el modelo 3D (<code>Archivo → Importar → Modelo STL</code>).</li>
+<li>Ajusta posición y orientación del modelo (<strong>Move</strong>, <strong>Rotate</strong>, <strong>Scale</strong>).</li>
+<li>
+<p>Configura parámetros:</p>
+</li>
+<li>
+<p>Material (ej. PLA)</p>
+</li>
+<li>Altura de capa (0.20 mm estándar, 0.10 mm para más detalle)</li>
+<li>Relleno (20 %)</li>
+<li>
+<p>Soportes (si hay partes colgantes)</p>
+</li>
+<li>
+<p>Pulsa <strong>Slice Now</strong> y guarda el archivo <code>.gcode</code> en USB.</p>
+</li>
+</ol>
+<p><strong>Dato técnico:</strong> El archivo G-code contiene coordenadas (X, Y, Z), temperatura y velocidad de extrusión para cada capa.</p>
+<h2 id="preparacion-y-calibracion-inicial"><strong>Preparación y calibración inicial</strong></h2>
+<ol>
+<li>Enciende la impresora y abre el menú principal.</li>
+<li>Ejecuta <strong>Settings &gt; Calibration &gt; Selftest</strong>.</li>
+<li>
+<p>La impresora verifica:</p>
+</li>
+<li>
+<p>Movimiento de ejes (X, Y, Z)</p>
+</li>
+<li>Sensor de filamento</li>
+<li>
+<p>Calibración de extrusor y cama</p>
+</li>
+<li>
+<p>Resultado: “Selftest Passed” si todo está correcto.</p>
+</li>
+</ol>
+<p>Gracias al <strong>sensor de carga</strong>, no es necesario ajustar manualmente los tornillos de la cama.</p>
+<h2 id="cargar-o-cambiar-el-filamento"><strong>Cargar o cambiar el filamento</strong></h2>
+<ol>
+<li>Menú: <strong>Filament &gt; Load Filament</strong>.</li>
+<li>Calienta la boquilla a la temperatura del material.</li>
+<li>Introduce el filamento hasta que el motor lo arrastre.</li>
+<li>Espera a que salga un hilo uniforme.</li>
+<li>Para cambiar de material: <strong>Unload Filament</strong> primero.</li>
+<li>Limpia exceso con pinzas.</li>
+</ol>
+<p><strong>Nota:</strong> No toques la boquilla caliente (&gt;250 °C).</p>
+<h2 id="iniciar-una-impresion"><strong>Iniciar una impresión</strong></h2>
+<ol>
+<li>Inserta la memoria USB con el <code>.gcode</code>.</li>
+<li>Menú: <strong>Print &gt; USB Storage &gt; [Archivo]</strong>.</li>
+<li>Precalienta cama y boquilla.</li>
+<li>Observa la primera capa; ajusta <strong>Live Z Adjust</strong> si es necesario.</li>
+<li>La MK4S controla temperatura, velocidad y flujo automáticamente.</li>
+</ol>
+<p><strong>Consejo:</strong> Primera capa ligeramente aplastada; si no se adhiere, recalibra Z.</p>
+<h2 id="retirar-la-pieza-impresa"><strong>Retirar la pieza impresa</strong></h2>
+<ol>
+<li>Espera que la cama esté &lt;35 °C.</li>
+<li>Dobla ligeramente la <strong>cama magnética extraíble</strong> para despegar la pieza.</li>
+<li>Usa espátula si es necesario.</li>
+<li>Limpia superficie con alcohol isopropílico.</li>
+</ol>
+<h2 id="mantenimiento-basico"><strong>Mantenimiento básico</strong></h2>
+<ul>
+<li>Limpiar la boquilla </li>
+<li>Lubricar varillas y guías cada 3 meses</li>
+<li>Revisar cables del extrusor y ventiladores</li>
+<li>Mantener filamento seco</li>
+<li>Actualizar firmware: <a href="https://help.prusa3d.com/">help.prusa3d.com</a>.</li>
+</ul>
+<h2 id="resolucion-de-problemas-comunes"><strong>Resolución de problemas comunes</strong></h2>
+<table>
+<thead>
+<tr>
+<th>Problema</th>
+<th>Causa probable</th>
+<th>Solución</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>La primera capa no se adhiere</td>
+<td>Cama sucia o mal nivelada</td>
+<td>Limpia la cama, recalibra el eje Z</td>
+</tr>
+<tr>
+<td>Filamento no sale</td>
+<td>Boquilla obstruida</td>
+<td>Calienta y limpia con aguja o cambia el nozzle</td>
+</tr>
+<tr>
+<td>Filamento se rompe</td>
+<td>Humedad o mala calidad</td>
+<td>Usa filamento seco y revisa la guía</td>
+</tr>
+<tr>
+<td>Capas se desplazan</td>
+<td>Cinta o poleas flojas</td>
+<td>Ajusta correas y verifica ejes</td>
+</tr>
+<tr>
+<td>Impresión se detiene</td>
+<td>USB defectuosa o pérdida de energía</td>
+<td>Reintenta desde otro dispositivo o usa función <em>Resume Print</em></td>
+</tr>
+</tbody>
+</table>
+<h2 id="recomendaciones-finales"><strong>Recomendaciones finales</strong></h2>
+<ul>
+<li>Comienza con modelos sencillos</li>
+<li>No apagues la impresora hasta que enfríe</li>
+<li>Mantén la zona de impresión limpia</li>
+<li>Consulta foros y perfiles de impresión en <a href="https://www.printables.com/">Printables.com</a>.</li>
+</ul>
+<p><strong>Con la Prusa MK4S aprenderás los fundamentos reales de la impresión 3D sin complicaciones de calibración ni ajustes manuales.</strong><br />
+Su diseño, sensores inteligentes y software optimizado te permiten concentrarte en <strong>crear y experimentar</strong>, no en reparar o corregir errores.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.tooltips"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
