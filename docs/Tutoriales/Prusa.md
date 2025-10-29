@@ -1,25 +1,22 @@
-# 🖨️ **Impresora 3D Prusa MK4S**
+# **Impresora 3D Prusa MK4S**
 
 <p align="center">
-  <img src="../imgspr/Prusa.webp" width="300" /><br>
-  <b>Una impresora moderna, precisa y diseñada para aprender sin complicaciones</b>
+  <img src="../imgspr/Prusa.webp" width="400" /><br>
+  
 </p>
 
 ---
 
-## 🔷 Introducción
+## Introducción
 
 La **Prusa MK4S** es una de las impresoras 3D más recomendadas para principiantes y entornos educativos.  
-Combina **facilidad de uso, fiabilidad y resultados profesionales** gracias a su sistema de **autonivelación automática**, su **asistente de calibración inteligente** y el software **PrusaSlicer**.
+Combina **facilidad de uso, confiable y da excelentes resultados** gracias a su sistema de **autonivelación automática**, su **asistente de calibración inteligente** y el software **PrusaSlicer**.
 
 Desde el primer encendido, guía al usuario paso a paso evitando errores comunes. Su funcionamiento es **silencioso**, su mantenimiento **sencillo**, y su comunidad **muy activa**, lo que facilita resolver dudas y aprender rápidamente.
 
 ---
 
 ## Materiales compatibles
-
-La MK4S admite una gran variedad de filamentos gracias a su **boquilla de alta temperatura (hasta 300 °C)** y su **cama calefactora magnética (hasta 120 °C)**.  
-Esto permite realizar desde piezas decorativas hasta componentes técnicos o flexibles.
 
 | Material | Descripción | Temp. boquilla / cama | Dificultad | Recomendado para |
 |:---------|:-------------|:---------------------:|:-----------:|:-----------------|
@@ -29,6 +26,8 @@ Esto permite realizar desde piezas decorativas hasta componentes técnicos o fle
 | **ASA** | Similar al ABS, pero más estable frente a rayos UV | 255 °C / 100 °C | Difícil | Piezas exteriores |
 | **TPU** | Material elástico y flexible | 230 °C / 60 °C |  Media | Protectores, juntas, fundas |
 | **Nylon** | Muy resistente y duradero | 260 °C / 90 °C |  Difícil | Engranajes, bisagras, componentes técnicos |
+| **PC(policarbonato)** | Alta resistencia al impacto y al desgaste (menor que al PETG) | 270°/ 110° | Media | Componentes técnicos |
+| **PVB** | Filamento transparente y resistencia a la tracción | 215°/75° | Difícil | Pantallas de lámpraras y joyería | 
 
 >  **Consejo:** si estás comenzando, imprime con **PLA**. Es económico, seguro y no requiere una cabina cerrada.
 
@@ -36,21 +35,27 @@ Esto permite realizar desde piezas decorativas hasta componentes técnicos o fle
 
 ## Componentes principales de la Prusa MK4S
 
-| Componente | Descripción |
-|-------------|--------------|
-| **Extrusor Nextruder** | Extrusor de nueva generación con sensor de carga que mejora la precisión de la primera capa. |
-| **Boquilla (Nozzle)** | Fundición del filamento a alta temperatura (máx. 300 °C). Fácil de reemplazar. |
-| **Cama calefactora magnética** | Superficie removible con calentamiento uniforme (hasta 120 °C). Facilita la extracción de piezas. |
-| **Pantalla táctil a color** | Interfaz moderna e intuitiva para gestionar impresiones, filamento y calibraciones. |
-| **Sensores de calibración** | Nivelación automática y detección precisa de posición del eje Z. |
-| **Fuente de poder y placa base 32 bits** | Sistema electrónico silencioso con control de vibraciones (Input Shaper). |
-| **Estructura de aluminio reforzada** | Alta estabilidad y rigidez, esencial para precisión dimensional. |
+<p align="center">
+  <img src="../imgspr/Componentes.jpg" width="400" /><br>
+  
+</p>
 
- *Sugerencia:* agrega aquí una imagen anotada con los componentes principales.  
-Por ejemplo:  
-`<img src="../imgspr/componentes_prusa.webp" width="600">`
-
----
+Componentes enumerados:
+   1. Carrete de filamento
+   2. Marco
+   3. Eje Z
+   4. Nextruder - Sensor de carga que mejora la precisión
+   5. Motor paso a paso del eje x
+   6. Caja electrónica - Se accede a lo puertos Ethernet y Wi-fi desde atrás
+   7. Motor paso a paso del eje Z
+   8. LCD
+   9. Portacarrete
+   10. Eje X - 
+   11. Fuente de alimentación
+   12. Lámina de impresión
+   13. Cama caliente
+   14. Puerto USB
+   15. Perilla giratoria
 
 ## Software de laminado: **PrusaSlicer**
 
