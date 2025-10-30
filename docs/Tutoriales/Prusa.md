@@ -5,18 +5,14 @@
   
 </p>
 
----
-
-## Introducción
+## **Introducción**
 
 La **Prusa MK4S** es una de las impresoras 3D más recomendadas para principiantes y entornos educativos.  
 Combina **facilidad de uso, confiable y da excelentes resultados** gracias a su sistema de **autonivelación automática**, su **asistente de calibración inteligente** y el software **PrusaSlicer**.
 
 Desde el primer encendido, guía al usuario paso a paso evitando errores comunes. Su funcionamiento es **silencioso**, su mantenimiento **sencillo**, y su comunidad **muy activa**, lo que facilita resolver dudas y aprender rápidamente.
 
----
-
-## Materiales compatibles
+## **Materiales compatibles**
 
 | Material | Descripción | Temp. boquilla / cama | Dificultad | Recomendado para |
 |:---------|:-------------|:---------------------:|:-----------:|:-----------------|
@@ -31,9 +27,7 @@ Desde el primer encendido, guía al usuario paso a paso evitando errores comunes
 
 >  **Consejo:** si estás comenzando, imprime con **PLA**. Es económico, seguro y no requiere una cabina cerrada.
 
----
-
-## Componentes principales de la Prusa MK4S
+## **Componentes principales de la Prusa MK4S**
 
 <p align="center">
   <img src="../imgspr/Componentes.jpg" width="400" /><br>
@@ -50,19 +44,19 @@ Componentes enumerados:
    7. Motor paso a paso del eje Z
    8. LCD
    9. Portacarrete
-   10. Eje X - 
+   10. Eje X  
    11. Fuente de alimentación
    12. Lámina de impresión
    13. Cama caliente
    14. Puerto USB
    15. Perilla giratoria
 
-## Software de laminado: **PrusaSlicer**
+## **Software de laminado: PrusaSlicer**
 
 El programa **PrusaSlicer** convierte los modelos 3D en instrucciones que la impresora entiende, llamadas **G-code**.
 
 
-## Interfaz de Prusa Slicer
+## **Interfaz de Prusa Slicer**
 
 <p align="center">
 <img src="../imgspr/Control.jpg="400">`
@@ -84,16 +78,18 @@ El programa **PrusaSlicer** convierte los modelos 3D en instrucciones que la imp
 14. "Move", "Scale", "Rotate", "Cut", "Paint-on-supports" y "Seam Painting Tools" 
  
 
-### Pasos básicos
+### **Pasos básicos**
 1. Abre **PrusaSlicer**.  
 2. Selecciona **Original Prusa MK4S** como impresora.  
 3. Carga tu modelo 3D (`Archivo → Importar → Modelo STL`).  
 4. Ajusta su posición y orientación con **Move**, **Rotate**, y **Scale**.  
 5. Configura los parámetros principales:
-   - Material: *PLA recomendado para iniciar*  
-   - Altura de capa: *0.20 mm (estándar)*  
-   - Relleno: *20 %*  
-   - Soportes: *solo si hay voladizos o huecos grandes*  
+   - Material: PLA recomendado para iniciar
+   - Altura de capa: 0.20 mm (estándar)  
+   - Relleno: 20 %  
+   - Soportes: Solo si hay partes que "vuelan" o huecos grandes  
+   - Infill: Tipo de relleno geometrico que sea de nuestro agrado
+   - Brim: Para incrementar la adherencia del modelo sobre la primera capa
 6. Selecciona **Slice Now** para generar el archivo.  
 7. Guarda el `.gcode` en una memoria USB.  
 
@@ -102,6 +98,14 @@ El programa **PrusaSlicer** convierte los modelos 3D en instrucciones que la imp
 <p align="center">
  <img src="../imgspr/Arc_subido_pr.png="400">`
 </p>
+
+### **Seleccionar el color para la impresión**
+
+1. Seleccionar la prevista
+2. Utilizar el controlo deslizante para seleccionar en que capa de la impresión quieres modificar el color
+3. Dar clic en el icono de "+" naranja
+4. Aparecerá una vista previa de cómo se verá el color, si lo quieres deshacer da clic en el botón gris que aparecerá en vez del naranja
+5. Exportar el .gcode para imprimir 
 
 ## **Pantalla táctil**
 
@@ -146,10 +150,10 @@ Aquí se muestran algunas de las opciones
 <img src="../imgspr/Info2.jpg="400">`
 </p>
 
-## Preparación y calibración inicial
+## **Preparación y calibración inicial**
 
 1. Enciende la impresora y espera que cargue el menú principal.  
-2. Dirígete a **Settings → Calibration → Selftest**.  
+2. Dirígete a **Settings > Calibration > Selftest**.  
 3. El sistema verificará:  
    - Movimiento de los ejes (X, Y, Z)  
    - Sensor de filamento  
@@ -161,7 +165,7 @@ Aquí se muestran algunas de las opciones
 
 
 
-##  Cargar o cambiar el filamento
+##  **Cargar o cambiar el filamento**
 
 1. Menú > **Filament > Load Filament**.  
 2. El extrusor calentará la boquilla automáticamente.  
@@ -175,7 +179,7 @@ Aquí se muestran algunas de las opciones
 
 
 
-##  Iniciar una impresión
+##  **Iniciar una impresión**
 
 1. Inserta la memoria USB con el archivo `.gcode` 
 2. Menú > Print > selecciona el modelo  
@@ -185,16 +189,14 @@ Aquí se muestran algunas de las opciones
 
 > La MK4S tiene la función de *Input Shaper*, un sistema que reduce vibraciones y mejora la calidad de impresión a altas velocidades.
 
-##  Retirar la pieza impresa
+##  **Retirar la pieza impresa**
 
 1. Espera a que la temperatura de la cama baje a menos de 35 °C.  
 2. Retira la **hoja magnética** y flexiónala suavemente.  
 3. Usa una espátula con cuidado si la pieza está muy adherida.  
 4. Limpia la cama con alcohol isopropílico antes de la siguiente impresión.  
 
----
-
-## Mantenimiento básico
+## **Mantenimiento básico**
 
 - Limpia la boquilla con aguja o cepillo de latón.  
 - Lubrica varillas y husillos cada 3 meses.  
@@ -202,12 +204,7 @@ Aquí se muestran algunas de las opciones
 - Guarda el filamento en bolsas con desecante.  
 - Actualiza el firmware desde [help.prusa3d.com](https://help.prusa3d.com/).  
 
- *Opcional:* imagen de limpieza y mantenimiento de boquilla.  
-`<img src="../imgspr/mantenimiento_prusa.webp" width="600">`
-
----
-
-## Resolución de problemas comunes
+## **Resolución de problemas comunes**
 
 | Problema | Posible causa | Solución |
 |-----------|----------------|-----------|
@@ -217,18 +214,14 @@ Aquí se muestran algunas de las opciones
 | Capas desplazadas | Correas flojas o atascos | Ajusta correas y verifica los ejes |
 | Impresión detenida | Fallo de energía o USB defectuosa | Usa otro dispositivo o la función *Resume Print* |
 
----
-
-##  Recomendaciones finales
+##  **Recomendaciones finales**
 
 - Inicia con modelos simples como el **3DBenchy** o un **cubo de calibración**.  
 - No apagues la impresora hasta que se enfríe por completo.  
 - Mantén el área de trabajo limpia y bien ventilada.  
 - Aprende nuevos perfiles de impresión en [Printables.com](https://www.printables.com/).  
 
----
-
-###  Conclusión
+###  **Conclusión**
 
 La **Prusa MK4S** permite a cualquier persona iniciarse en la impresión 3D sin complicaciones.  
 Su diseño inteligente, sensores avanzados y software intuitivo hacen que el aprendizaje sea fluido y confiable.  
