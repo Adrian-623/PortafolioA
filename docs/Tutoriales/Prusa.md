@@ -115,21 +115,26 @@ El programa **PrusaSlicer** convierte los modelos 3D en instrucciones que la imp
 </p>
 
 1. Print
+
     Cuando se selcciona está opción lo que muestra son todos los archivos que están guardados en la USB que esta conectada, si no hay USB  note dejara seleccionar la opción
 
+
 2. Preheat
+
    Aquí se abre un menú en donde podemos seleccionar el tipo de material que vamos a usar y la impresora automaticamente se calentara de acuerdo al material seleccionado
 <p align="center">
 <img src="../imgspr/Preheat.jpg" width="550" /><br>
 </p>
 
 3. Filament 
+
    Aquí se muestran las opciones que nos da el botón de "Filament", las cuales se autoexplican
 <p align="center">
 <img src="../imgspr/Filament.jpg" width="550"/><br>
 </p>
 
 4. Control
+
    Aquí se muestran varias elecciones para manipular varios factores de la impresora como el movimiento de los ejes
 
 <p align="center">
@@ -137,6 +142,7 @@ El programa **PrusaSlicer** convierte los modelos 3D en instrucciones que la imp
 </p>
 
 5. Settings
+
  Permite controlar y personalizar el comportamiento de la máquina a un nivel más profundo
 
 <p align="center">
@@ -145,10 +151,11 @@ Aquí se muestran algunas de las opciones
 </p>
 
 6. Info
+
 Aquí se nos proporciona toda la información de los detalles sobre la impresora
 
 <p align="center">
-<img src="../imgspr/Info2.jpg" width="550"/><br>
+<img src="../imgspr/Info.jpg" width="550"/><br>
 </p>
 
 ## **Preparación y calibración inicial**
