@@ -61,6 +61,29 @@ Componentes enumerados:
 
 El programa **PrusaSlicer** convierte los modelos 3D en instrucciones que la impresora entiende, llamadas **G-code**.
 
+
+## Interfaz de Prusa Slicer
+
+<p align="center">
+<img src="../imgspr/Control.jpg="400">`
+</p>
+
+1. Abre las opciones de "Print", "Filament" y "Printer sttings"
+2. "Add" sirve para importar modelos en 3D
+3. El botón de "Delete" sirve para borrar los modelos que esten en la interfaz
+4. Sirve para cambiar entre modos "Simple", "Avanzado" y "Experto"
+5. Configuraciones para velocidad y calidad
+6. Seleccionar el material
+7. Seleccionar la impresora
+8. Configurar "Infill", "Supports" y "Brim"
+9. Información sobre el tamaño del modelo y el tiempo de duración de la impresión (Después de sleccionar "Slice")
+10. Slice
+11. Clic derecho sobre el modelo para abrir nu menú sobre información
+12. Modelar la prevista en 3D 
+13. Cambiar entre el editor 3D y el modo de prevista
+14. "Move", "Scale", "Rotate", "Cut", "Paint-on-supports" y "Seam Painting Tools" 
+ 
+
 ### Pasos básicos
 1. Abre **PrusaSlicer**.  
 2. Selecciona **Original Prusa MK4S** como impresora.  
@@ -71,15 +94,57 @@ El programa **PrusaSlicer** convierte los modelos 3D en instrucciones que la imp
    - Altura de capa: *0.20 mm (estándar)*  
    - Relleno: *20 %*  
    - Soportes: *solo si hay voladizos o huecos grandes*  
-6. Pulsa **Slice Now** para generar el archivo.  
+6. Selecciona **Slice Now** para generar el archivo.  
 7. Guarda el `.gcode` en una memoria USB.  
 
 > **Dato técnico:** el archivo G-code contiene coordenadas (X, Y, Z), temperatura y flujo de extrusión para cada capa.
 
- *Opcional:* imagen de la interfaz de PrusaSlicer mostrando el modelo cargado.  
-`<img src="../imgspr/prusaslicer_ui.webp" width="700">`
+<p align="center">
+ <img src="../imgspr/Arc_subido_pr.png="400">`
+</p>
 
----
+## **Pantalla táctil**
+
+<p align="center">
+<img src="../imgspr/Pantalla.jpg="400">`
+</p>
+
+1. Print
+   - Cuando se selcciona está opción lo que muestra son todos los archivos que están guardados en la USB que esta conectada, si no hay USB  note dejara seleccionar la opción
+
+2. Preheat
+   - Aquí se abre un menú en donde podemos seleccionar el tipo de material que vamos a usar y la impresora automaticamente se calentara de acuerdo al material seleccionado
+<p align="center">
+<img src="../imgspr/Preheat.jpg="400">
+</p>
+
+3. Filament 
+   - Aquí se muestran las opciones que nos da el botón de "Filament", las cuales se autoexplican
+<p align="center">
+<img src="../imgspr/Filament.jpg="400">
+</p>
+
+4. Control
+   - Aquí se muestran varias elecciones para manipular varios factores de la impresora como el movimiento de los ejes
+
+<p align="center">
+<img src="../imgspr/Control.jpg="400">
+</p>
+
+5. Settings
+ - Permite controlar y personalizar el comportamiento de la máquina a un nivel más profundo
+
+<p align="center">
+<img src="../imgspr/Settings.jpg="400">
+Aquí se muestran algunas de las opciones
+</p>
+
+6. Info
+   - Aquí se nos proporciona toda la información de los detalles sobre la impresora
+
+<p align="center">
+<img src="../imgspr/Info2.jpg="400">`
+</p>
 
 ## Preparación y calibración inicial
 
@@ -94,12 +159,13 @@ El programa **PrusaSlicer** convierte los modelos 3D en instrucciones que la imp
 > **No es necesario nivelar manualmente la cama.**  
 > La MK4S usa sensores de carga y un sistema de calibración automática (Load Cell) que mide la presión real de contacto.
 
----
+
 
 ##  Cargar o cambiar el filamento
 
-1. Menú → **Filament → Load Filament**.  
+1. Menú > **Filament > Load Filament**.  
 2. El extrusor calentará la boquilla automáticamente.  
+3. Corta la punta del filamento de modo que qude un poco afilado
 3. Inserta el filamento y deja que el motor lo guíe.  
 4. Espera a que salga un flujo uniforme.  
 5. Para cambiar material: **Unload Filament** → luego carga el nuevo.  
@@ -107,19 +173,17 @@ El programa **PrusaSlicer** convierte los modelos 3D en instrucciones que la imp
 
 > **Precaución:** nunca toques la boquilla caliente (puede superar los 250 °C).
 
----
+
 
 ##  Iniciar una impresión
 
-1. Inserta la memoria USB con el archivo `.gcode`.  
-2. Menú → **Print → USB Storage** → selecciona el modelo.  
-3. La impresora precalienta la cama y la boquilla automáticamente.  
-4. Observa la primera capa: debe verse uniforme y bien adherida.  
-5. Si el filamento no se adhiere, ajusta con **Live Z Adjust**.  
+1. Inserta la memoria USB con el archivo `.gcode` 
+2. Menú > Print > selecciona el modelo  
+3. La impresora precalienta la cama y la boquilla automáticamente
+4. Observa la primera capa: debe verse uniforme y bien adherida  
+5. Si el filamento no se adhiere, ajusta con **Live Z Adjust**  
 
-> 💡 La MK4S incorpora *Input Shaper*, un sistema que reduce vibraciones y mejora la calidad de impresión a altas velocidades (hasta 250 mm/s).
-
----
+> La MK4S tiene la función de *Input Shaper*, un sistema que reduce vibraciones y mejora la calidad de impresión a altas velocidades.
 
 ##  Retirar la pieza impresa
 
