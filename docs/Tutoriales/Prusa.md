@@ -30,7 +30,7 @@ Desde el primer encendido, guía al usuario paso a paso evitando errores comunes
 ## **Componentes principales de la Prusa MK4S**
 
 <p align="center">
-  <img src="../imgspr/Componentes.jpg" width="400" /><br>
+  <img src="../imgspr/Componentes.jpg" width="550" /><br>
   
 </p>
 
@@ -60,7 +60,7 @@ El programa **PrusaSlicer** convierte los modelos 3D en instrucciones que la imp
 ## **Interfaz de Prusa Slicer**
 
 <p align="center">
-<img src="../imgspr/Control.jpg" width="400" /><br>
+<img src="../imgspr/Interfaz.jpg" width="550" /><br>
 </p>
 
 1. Abre las opciones de "Print", "Filament" y "Printer sttings"
@@ -97,7 +97,7 @@ El programa **PrusaSlicer** convierte los modelos 3D en instrucciones que la imp
 > **Dato técnico:** el archivo G-code contiene coordenadas (X, Y, Z), temperatura y flujo de extrusión para cada capa.
 
 <p align="center">
- <img src="../imgspr/Arc_subido_pr.png" width="400" /><br>
+ <img src="../imgspr/Arc_subido_pr.png" width="550" /><br>
 </p>
 
 ### **Seleccionar el color para la impresión**
@@ -111,44 +111,44 @@ El programa **PrusaSlicer** convierte los modelos 3D en instrucciones que la imp
 ## **Pantalla táctil**
 
 <p align="center">
-<img src="../imgspr/Pantalla.jpg" width="400" /><br>
+<img src="../imgspr/Pantalla.jpg" width="550" /><br>
 </p>
 
 1. Print
-   - Cuando se selcciona está opción lo que muestra son todos los archivos que están guardados en la USB que esta conectada, si no hay USB  note dejara seleccionar la opción
+    Cuando se selcciona está opción lo que muestra son todos los archivos que están guardados en la USB que esta conectada, si no hay USB  note dejara seleccionar la opción
 
 2. Preheat
-   - Aquí se abre un menú en donde podemos seleccionar el tipo de material que vamos a usar y la impresora automaticamente se calentara de acuerdo al material seleccionado
+   Aquí se abre un menú en donde podemos seleccionar el tipo de material que vamos a usar y la impresora automaticamente se calentara de acuerdo al material seleccionado
 <p align="center">
-<img src="../imgspr/Preheat.jpg=" width="400" /><br>
+<img src="../imgspr/Preheat.jpg" width="550" /><br>
 </p>
 
 3. Filament 
-   - Aquí se muestran las opciones que nos da el botón de "Filament", las cuales se autoexplican
+   Aquí se muestran las opciones que nos da el botón de "Filament", las cuales se autoexplican
 <p align="center">
-<img src="../imgspr/Filament.jpg" width="400"/><br>
+<img src="../imgspr/Filament.jpg" width="550"/><br>
 </p>
 
 4. Control
-   - Aquí se muestran varias elecciones para manipular varios factores de la impresora como el movimiento de los ejes
+   Aquí se muestran varias elecciones para manipular varios factores de la impresora como el movimiento de los ejes
 
 <p align="center">
-<img src="../imgspr/Control.jpg=" width="400"/><br>
+<img src="../imgspr/Control.jpg" width="550"/><br>
 </p>
 
 5. Settings
- - Permite controlar y personalizar el comportamiento de la máquina a un nivel más profundo
+ Permite controlar y personalizar el comportamiento de la máquina a un nivel más profundo
 
 <p align="center">
-<img src="../imgspr/Settings.jpg=" width="400"/><br>
+<img src="../imgspr/Settings.jpg" width="550"/><br>
 Aquí se muestran algunas de las opciones
 </p>
 
 6. Info
-   - Aquí se nos proporciona toda la información de los detalles sobre la impresora
+Aquí se nos proporciona toda la información de los detalles sobre la impresora
 
 <p align="center">
-<img src="../imgspr/Info2.jpg=" width="400"/><br>
+<img src="../imgspr/Info2.jpg" width="550"/><br>
 </p>
 
 ## **Preparación y calibración inicial**
