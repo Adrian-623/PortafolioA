@@ -35,21 +35,22 @@ Desde el primer encendido, guía al usuario paso a paso evitando errores comunes
 </p>
 
 Componentes enumerados:
-   1. Carrete de filamento
-   2. Marco
-   3. Eje Z
-   4. Nextruder - Sensor de carga que mejora la precisión
-   5. Motor paso a paso del eje x
-   6. Caja electrónica - Se accede a lo puertos Ethernet y Wi-fi desde atrás
-   7. Motor paso a paso del eje Z
-   8. LCD
-   9. Portacarrete
-   10. Eje X  
-   11. Fuente de alimentación
-   12. Lámina de impresión
-   13. Cama caliente
-   14. Puerto USB
-   15. Perilla giratoria
+
+1. Carrete de filamento
+2. Marco
+3. Eje Z
+4. Nextruder - Sensor de carga que mejora la precisión
+5. Motor paso a paso del eje x
+6. Caja electrónica - Se accede a lo puertos Ethernet y Wi-fi desde atrás
+7. Motor paso a paso del eje Z
+8. LCD
+9. Portacarrete
+10. Eje X  
+11. Fuente de alimentación
+12. Lámina de impresión
+13. Cama caliente
+14. Puerto USB
+15. Perilla giratoria
 
 ## **Software de laminado: PrusaSlicer**
 
@@ -59,7 +60,7 @@ El programa **PrusaSlicer** convierte los modelos 3D en instrucciones que la imp
 ## **Interfaz de Prusa Slicer**
 
 <p align="center">
-<img src="../imgspr/Control.jpg="400">`
+<img src="../imgspr/Control.jpg" width="400" /><br>
 </p>
 
 1. Abre las opciones de "Print", "Filament" y "Printer sttings"
@@ -81,7 +82,7 @@ El programa **PrusaSlicer** convierte los modelos 3D en instrucciones que la imp
 ### **Pasos básicos**
 1. Abre **PrusaSlicer**.  
 2. Selecciona **Original Prusa MK4S** como impresora.  
-3. Carga tu modelo 3D (`Archivo → Importar → Modelo STL`).  
+3. Carga tu modelo 3D (`Archivo > Importar > Modelo STL`).  
 4. Ajusta su posición y orientación con **Move**, **Rotate**, y **Scale**.  
 5. Configura los parámetros principales:
    - Material: PLA recomendado para iniciar
@@ -96,7 +97,7 @@ El programa **PrusaSlicer** convierte los modelos 3D en instrucciones que la imp
 > **Dato técnico:** el archivo G-code contiene coordenadas (X, Y, Z), temperatura y flujo de extrusión para cada capa.
 
 <p align="center">
- <img src="../imgspr/Arc_subido_pr.png="400">`
+ <img src="../imgspr/Arc_subido_pr.png" width="400" /><br>
 </p>
 
 ### **Seleccionar el color para la impresión**
@@ -110,7 +111,7 @@ El programa **PrusaSlicer** convierte los modelos 3D en instrucciones que la imp
 ## **Pantalla táctil**
 
 <p align="center">
-<img src="../imgspr/Pantalla.jpg="400">`
+<img src="../imgspr/Pantalla.jpg" width="400" /><br>
 </p>
 
 1. Print
@@ -119,27 +120,27 @@ El programa **PrusaSlicer** convierte los modelos 3D en instrucciones que la imp
 2. Preheat
    - Aquí se abre un menú en donde podemos seleccionar el tipo de material que vamos a usar y la impresora automaticamente se calentara de acuerdo al material seleccionado
 <p align="center">
-<img src="../imgspr/Preheat.jpg="400">
+<img src="../imgspr/Preheat.jpg=" width="400" /><br>
 </p>
 
 3. Filament 
    - Aquí se muestran las opciones que nos da el botón de "Filament", las cuales se autoexplican
 <p align="center">
-<img src="../imgspr/Filament.jpg="400">
+<img src="../imgspr/Filament.jpg" width="400"/><br>
 </p>
 
 4. Control
    - Aquí se muestran varias elecciones para manipular varios factores de la impresora como el movimiento de los ejes
 
 <p align="center">
-<img src="../imgspr/Control.jpg="400">
+<img src="../imgspr/Control.jpg=" width="400"/><br>
 </p>
 
 5. Settings
  - Permite controlar y personalizar el comportamiento de la máquina a un nivel más profundo
 
 <p align="center">
-<img src="../imgspr/Settings.jpg="400">
+<img src="../imgspr/Settings.jpg=" width="400"/><br>
 Aquí se muestran algunas de las opciones
 </p>
 
@@ -147,7 +148,7 @@ Aquí se muestran algunas de las opciones
    - Aquí se nos proporciona toda la información de los detalles sobre la impresora
 
 <p align="center">
-<img src="../imgspr/Info2.jpg="400">`
+<img src="../imgspr/Info2.jpg=" width="400"/><br>
 </p>
 
 ## **Preparación y calibración inicial**
