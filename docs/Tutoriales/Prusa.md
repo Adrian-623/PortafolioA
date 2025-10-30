@@ -108,6 +108,10 @@ El programa **PrusaSlicer** convierte los modelos 3D en instrucciones que la imp
 4. Aparecerá una vista previa de cómo se verá el color, si lo quieres deshacer da clic en el botón gris que aparecerá en vez del naranja
 5. Exportar el .gcode para imprimir 
 
+<p align="center">
+<img src="../imgspr/Color.jpg" width="550" /><br>
+</p>
+
 ## **Pantalla táctil**
 
 <p align="center">
