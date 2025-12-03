@@ -4,4 +4,3 @@
     <img src="../imgs copy/pF.jpg" width="250" /><br>
 </p>
 
-Les presentamos todo nuestro registro sobre nuestro Proyecto que trabajamos a lo largo de la materia 
