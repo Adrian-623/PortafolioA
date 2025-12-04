@@ -1,16 +1,28 @@
-## **Semana 3** 
+<div style="background-color:#0d1117; color:white; padding:20px; border-radius:10px;">
 
-<a href="../Syllabus/Ejercicio_2.SLDPRT" target="_blank">Ejercicio 2 Adrián</a>
+<!-- Encabezado principal -->
+<h1 align="center" style="font-weight: 900; letter-spacing: 2px; font-family:Consolas;">
+  <span style="color:#FF073A;"> <b>Semana 3:</b> </span> 
+  <span style="color:#228B22;"> <b>Piezas Solidworks</b> </span>
+</h1>
+<p align="center">
+  <i>Proyecto de Ingeniería</i>
+</p>
+</div>
+
+## <span style="color:#0033A0;">**Actividad 1**</span>
+
+<a href="../Archivos/Ejercicio_2.SLDPRT" target="_blank">Ejercicio 2 Adrián</a>
 
 <p align="center">
-    <img src="../imgs copy/BotellaImg.png" width="550">
+    <img src="../imgs/BotellaImg.png" width="550">
 </p>
 
 
-<a href="../Iker/ejercicio2.SLDPRT" target="_blank"> Ejercicio 2 Iker</a>
+<a href="../ArchivosI/ejercicio2.SLDPRT" target="_blank"> Ejercicio 2 Iker</a>
 
 <p align="center">
-    <img src="../imgsIker/BotellaIk2.png" width="550">
+    <img src="../imgsI/BotellaIk2.png" width="550">
 </p>
 
 
@@ -39,17 +51,18 @@ Y nos ayudó a crear otro plano sobre el croquis del cual estabamos trabajando y
 6.- Al final extruimos el círculo del otro plano para hacer la boquilla
 
 
+## <span style="color:#0033A0;">**Actividad 2**</span>
 
-<a href="../Syllabus/Ejercicio_5.SLDPRT" target="_blank">Ejercicio 5 Adrián</a>
+<a href="../Archivo/Ejercicio_5.SLDPRT" target="_blank">Ejercicio 5 Adrián</a>
 
 <p align="center">
-    <img src="../imgs copy/Llave5.png" width="550">
+    <img src="../imgs/Llave5.png" width="550">
 </p>
 
-<a href="../Iker/ejercicio5.SLDPRT" target="_blank"> Ejercivio 5 Iker</a>
+<a href="../ArchivosI/ejercicio5.SLDPRT" target="_blank"> Ejercivio 5 Iker</a>
 
 <p align="center">
-    <img src="../imgsIker/LlaveIk.png" width="550">
+    <img src="../imgsI/LlaveIk.png" width="550">
 </p>
 
 Para este ejercicio hicimos lo siguiente:
