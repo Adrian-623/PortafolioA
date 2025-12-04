@@ -1,4 +1,4 @@
-## **Semana 1**
+## **Botella Solidworks**
 
 Aprendimos a utilizar el progama de solidworks para hacer piezas u objetos en 3D a partir de planos 2D
 
@@ -18,8 +18,9 @@ La herramienta principla que se utilizó fue "Revolución de saliente/base"
 
 1.-Primero lo que hicimos fue insertar una imagen de la botella que queríamos dibujar
 
-2.- Después colocamos un eje a la mita de la image
+2.- Después colocamos un eje de construcción a la mitad de la imagen
 
-3.- Se usó "Spline" para ir dibujando por el contorno de la mitad de la figura 
+3.- Se usó "Spline" para ir dibujando desde una de las orillas del eje por el contorno de la mitad de la figura
+> Para asegurarnos de que no hubiera contorno abierto nos aseguramos de que al momento de cerrar el contorno 
 
 4.- Ya por último con "Revolución de saliente/base" seleccionamos el eje central y ya se formó la figura
