@@ -24,5 +24,5 @@ El profesor nos pidió que hicieramos una caja de aluminio con las maquinas que 
 Y así me quedó la caja:
 
 <p align="center">
-    <img src="../vidI/CajaI.png" width="600">
+    <img src="../vidI/CajaI.jpg" width="600">
 </p>
