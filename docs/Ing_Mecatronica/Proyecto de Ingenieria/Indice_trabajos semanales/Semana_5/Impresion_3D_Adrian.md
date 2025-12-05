@@ -80,7 +80,7 @@ Para finalizar con la cabeza en la parte posterior se extruyó el corte para pod
 </p>
 
 <p align="right">
-    <img src="../imgs/RedondeoC.png" width="550">
+    <img src="../imgs/ReondeoC.png" width="550">
 </p>
 
 Después se extruyó desde la parte superior un círculo para poder introducirlo en la cabeza y en la capa

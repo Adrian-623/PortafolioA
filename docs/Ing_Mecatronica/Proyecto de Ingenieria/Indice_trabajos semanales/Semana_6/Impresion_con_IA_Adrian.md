@@ -17,13 +17,7 @@
     width: 100%;
     height: 100vh;
     background: black;
-    background-image:
-      radial-gradient(2px 2px at 20% 30%, white 100%, transparent),
-      radial-gradient(1.5px 1.5px at 70% 80%, white 100%, transparent),
-      radial-gradient(1.8px 1.8px at 40% 60%, white 100%, transparent),
-      radial-gradient(1.2px 1.2px at 90% 20%, white 100%, transparent),
-      radial-gradient(2px 2px at 10% 70%, white 100%, transparent),
-      radial-gradient(1.3px 1.3px at 50% 10%, white 100%, transparent);
+    
     background-repeat: repeat;
   }
 
@@ -49,7 +43,7 @@
 </style>
 </head>
 <body>
-  <div class="stars"></div>
+  
 
   <div class="container">
     <div class="card">
