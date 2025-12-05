@@ -35,7 +35,7 @@ Para el diseño de los muñecos hicimos calcado de imagenes de caballeros que en
 Así fue el diseño tanto en Solidworks como ya cortado en MDF:
 
 <p align="center">
-    <img src="../imgs/Raul.PNG" width="550">
+    <img src="../imgs/Raul.png" width="550">
 </p>
 
 <p align="center">
