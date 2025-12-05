@@ -47,7 +47,7 @@
   <p>Proyecto de ingeniería</p>
 
   <div class="imagen-con-degradado">
-    <img src="../imgs copy/public.webp" alt="Hollow Knight">
+    <img src="../imgs/public.webp" alt="Hollow Knight">
   </div>
 
 </body>
