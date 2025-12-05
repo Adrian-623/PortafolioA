@@ -47,7 +47,7 @@
   <p>Proyecto de ingeniería</p>
 
   <div class="imagen-con-degradado">
-    <img src="../imgs/StarWars.png" alt="Star Wars">
+    <img src="../imgs/StarWars.jpg" alt="Star Wars">
   </div>
 
 </body>
