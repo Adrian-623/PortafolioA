@@ -32,9 +32,9 @@ El **temporizador 555** es un componente de electrónica que sirve para generar 
 
     1.Monoestable: produce un pulso de duración fija al recibir una señal
 
-    2. Astable: genera una señal continua como una onda cuadrada (como un parpadeo).
+    2.Astable: genera una señal continua como una onda cuadrada (como un parpadeo).
 
-    3.-Biestable: actúa como un interruptor que cambia entre dos estados.
+    3.Biestable: actúa como un interruptor que cambia entre dos estados.
 
 Se usa en temporizadores, luces que parpadean, alarmas y osciladores.
 
