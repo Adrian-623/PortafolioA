@@ -24,7 +24,7 @@ Al principio de la clase de esta semana se nos enseñó todo lo que necesitabamo
 
 ## <span style="color:#0033A0;">**Proceso**</span>
 
-Para poder usar la ocrtadora se debe seguir un proceso
+Para poder usar la cortadora se debe seguir un proceso
 
 1. **Diseño:** Hay que hacer un diseño por computadora con formato vectorial (DXF)
 
@@ -46,7 +46,7 @@ Para poder usar la ocrtadora se debe seguir un proceso
 Siguiendo el procedimiento mencionado con anterioridad realizamos primero lo que es el diseño en Solidworks para luego guardarlo en el tipo de archivo DXF
 
 <p align="center">
-    <img src="../imgs/Molino.png" width="550">
+    <img src="../imgs/Molino.png" width="600">
 </p>
 
 También para el diseño se ocupó algo que se nos enseñó en clase, llamadas "Ecuaciones globales" las cuales se pueden observar en la imagen anterior que tienen su símbolo el cual es Σ 
@@ -56,7 +56,7 @@ Estas nos ayudan evitar estar escribiendo la misma medida una y otra vez en los 
 Después de haber terminado el diseño este se guardó en DXF
 
 <p align="center">
-    <img src="../imgs/MolinoDXF.png" width="550">
+    <img src="../imgs/MolinoDXF.png" width="600">
 </p>
 
 Una vez guardado el archivo en una USB se llevo la cortadora y se importó el archivo
@@ -80,7 +80,7 @@ Ya se envío la configuración a la máquina y solo fue esperar a que se termina
 
 Se retiraron tanto las placas de MDF y cartón como las piezas cortadas de estas y ya se armaron los kits de constrcción.
 
-<div style="text-align:center; padding:30px; background:white; border:2px solid #000000ff; border-radius:10px; margin-bottom:30px;">
+<div style="text-align:center; padding:30px; background:white; border:5px solid #000000ff; border-radius:10px; margin-bottom:30px;">
   <h1 style="font-family:Georgia; font-size:20px; font-weight:900; color:#000;">Adrián</h1>
   
 
@@ -92,12 +92,12 @@ Se retiraron tanto las placas de MDF y cartón como las piezas cortadas de estas
 </div>
 
 
-<div style="text-align:center; padding:30px; background:white; border:2px solid #000000ff; border-radius:10px; margin-bottom:30px;">
-  <h1 style="font-family:Georgia; font-size:20px; font-weight:900; color:#000;">Adrián</h1>
+<div style="text-align:center; padding:30px; background:white; border:5px solid #000000ff; border-radius:10px; margin-bottom:30px;">
+  <h1 style="font-family:Georgia; font-size:20px; font-weight:900; color:#000;">Iker</h1>
   
 
 <p align="center">
-    <img src="../imgsI/Casa.png" width="550">
+    <img src="../imgsI/Casa.jpg" width="650">
 </p>
 
 </div>
