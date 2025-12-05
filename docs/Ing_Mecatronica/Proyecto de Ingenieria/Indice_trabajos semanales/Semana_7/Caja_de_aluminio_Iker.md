@@ -18,7 +18,7 @@ El profesor nos pidió que hicieramos una caja de aluminio con las maquinas que 
 </video>
 
 <p align="center">
-    <img src="../vidI/Dobla.png" width="600">
+    <img src="../vidI/Dobla.jpg" width="600">
 </p>
 
 Y así me quedó la caja:

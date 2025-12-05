@@ -19,10 +19,10 @@ Las 3 principales fueron:
 
 Para el trabajo de esta semana se nos asignó el hacer una caja con placas de aluminio y este fue el procedimiento:
 
-<img src="../imgs/CorteP.png" width="500">
-<img src="../imgs/Doblar.png" width="500">
-<img src="../imgs/Punt.png" width="500">
-<img src="../imgs/Trazo.png" width="500">
+<img src="../imgs/CorteP.jpg" width="500">
+<img src="../imgs/Doblar.jpg" width="500">
+<img src="../imgs/Punt.jpg" width="500">
+<img src="../imgs/Trazo.jpg" width="500">
 
 Y este es el resultado final:
 
