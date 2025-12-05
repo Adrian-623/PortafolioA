@@ -1,66 +1,64 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-<meta charset="UTF-8">
-<title>Semana 6</title>
 <style>
   body {
+    background-color: #000000ff; /* fondo oscuro */
+    color: #f2f2f2;
+    font-family: 'Georgia', serif;
     margin: 0;
     padding: 0;
-    background: black;
-    overflow-x: hidden;
-    font-family: Consolas, monospace;
   }
-
-  /* Fondo de estrellas estilo galaxia */
-  .stars {
+  h1 {
+    font-family: Georgia, serif;
+    color: #EDEDED;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .imagen-con-degradado {
+    position: relative;
     width: 100%;
-    height: 100vh;
-    background: black;
-    
-    background-repeat: repeat;
+    display: inline-block;
   }
-
-  .container {
+  .imagen-con-degradado img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  /* Degradado solo en los lados izquierdo y derecho */
+  .imagen-con-degradado::after {
+    content: "";
     position: absolute;
     top: 0;
+    left: 0;
     width: 100%;
-    padding: 20px;
-  }
-
-  .card {
-    background-color: #0d1117;
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-  }
-
-  h1 {
-    font-weight: 900;
-    letter-spacing: 2px;
-    text-align: center;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0,0,0,0.8) 0%, transparent 10%, transparent 90%, rgba(0,0,0,0.8) 100%);
+    pointer-events: none;
   }
 </style>
 </head>
 <body>
-  
 
-  <div class="container">
-    <div class="card">
+  <h1 align="center" style="font-family:Georgia; color:#EDEDED;"> Semana 6: Impresion 3D con IA</h1>
 
-      <h1>
-        <span style="color:#FF073A;"><b>Semana 6:</b></span>
-        <span style="color:#228B22;"><b> impresión con IA</b></span>
-      </h1>
-      <p align="center"><i>Proyecto de Ingeniería</i></p>
+  <p>Proyecto de ingeniería</p>
 
-      <p>En esta clase se nos solicitó que con ayuda de la IA de Gemini generáramos una figura de nuestro gusto que pudiéramos imprimir en las impresoras 3D.</p>
-
-      <p>Para el primer intento decidí crear la imagen de un dragón futurístico; se veía muy bien cómo quedaría. Pero cuando se realizó la impresión, toda la estructura estaba muy delicada y se rompió al retirar los soportes.</p>
-
-      <p>Después se me ocurrió generar la impresión de un droide muy famoso de la saga de Star Wars, el cual es BB-8, y ya una vez que se lo solicité a Gemini, lo pude imprimir.</p>
-
-    </div>
+  <div class="imagen-con-degradado">
+    <img src="../imgs/StarWars.png" alt="Star Wars">
   </div>
+
 </body>
 </html>
+
+En esta clase se nos solicitó que con ayuda de la IA de Gemini generáramos una figura de nuestro gusto que pudiéramos imprimir en las impresoras 3D.</p>
+
+Para el primer intento decidí crear la imagen de un dragón futurístico; se veía muy bien cómo quedaría. Pero cuando se realizó la impresión, toda la estructura estaba muy delicada y se rompió al retirar los soportes.
+
+Después se me ocurrió generar la impresión de un droide muy famoso de la saga de Star Wars, el cual es BB-8, y ya una vez que se lo solicité a Gemini, lo inserté en Tripo para que lo transformara en STL y así lo pude imprimir y quedó así:
+
+<p align="center">
+    <img src="../imgs/BB8.png" width="600">
+</p>
