@@ -25,7 +25,7 @@
     <li> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Proyecto%20de%20Ingenieria/01%20Portada/" style="color:#E74C3C; text-decoration:none;">Portada</a></li>
       <li> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Proyecto%20de%20Ingenieria/03%20About/" style="color:#E74C3C; text-decoration:none;">About</a></li>
       <li> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Proyecto%20de%20Ingenieria/Proyecto%20FInal/" style="color:#E74C3C; text-decoration:none;">Proyecto Final</a></li>
-      <li> <a href="">Indice trabajos semanales</a></li>
+      <li> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Proyecto%20de%20Ingenieria/Indice_trabajos_semanales/">Indice trabajos semanales</a></li>
     </ul>
   </div>
 
