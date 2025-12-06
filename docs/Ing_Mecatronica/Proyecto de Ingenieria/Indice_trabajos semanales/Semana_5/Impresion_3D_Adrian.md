@@ -163,5 +163,5 @@ Ya por último se extruyó un círculo por la parte de abajo para generar el man
 Y así fue cómo quedó la impresión:
 
 <p align="center">
-    <img src="../imgs/HollowK.png" width="700">
+    <img src="../imgs/HollowK.jpg" width="700">
 </p>

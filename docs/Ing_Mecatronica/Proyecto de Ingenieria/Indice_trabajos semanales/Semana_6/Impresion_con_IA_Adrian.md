@@ -60,5 +60,5 @@ Para el primer intento decidí crear la imagen de un dragón futurístico; se ve
 Después se me ocurrió generar la impresión de un droide muy famoso de la saga de Star Wars, el cual es BB-8, y ya una vez que se lo solicité a Gemini, lo inserté en Tripo para que lo transformara en STL y así lo pude imprimir y quedó así:
 
 <p align="center">
-    <img src="../imgs/BB8.png" width="600">
+    <img src="../imgs/BB8.jpg" width="600">
 </p>

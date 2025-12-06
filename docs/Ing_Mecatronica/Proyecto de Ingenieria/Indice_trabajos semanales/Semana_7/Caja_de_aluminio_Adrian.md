@@ -27,5 +27,5 @@ Para el trabajo de esta semana se nos asignó el hacer una caja con placas de al
 Y este es el resultado final:
 
 <p align="center">
-    <img src="../imgs/Caja.png" width="600">
+    <img src="../imgs/Caja.jpg" width="600">
 </p>
