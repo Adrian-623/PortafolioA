@@ -29,4 +29,3 @@
       <li> <a href="https://adrian-623.github.io/PortafolioA/Ing_Mecatronica/Proyecto%20de%20Ingenieria/Tareas/">Tareas</a></li>
     </ul>
   </div>
-
