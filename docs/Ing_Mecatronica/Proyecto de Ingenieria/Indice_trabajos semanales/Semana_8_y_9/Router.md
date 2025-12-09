@@ -10,9 +10,6 @@
 </p>
 </div>
 
-Aquí tienes una **versión parafraseada y reestructurada**, más clara y ordenada:
-
-
 ### **Resumen del router CNC**
 
 Durante esta semana me familiaricé con el uso del router CNC, una máquina diseñada para cortar y dar forma a distintos materiales como madera, MDF o espuma rosa. Su funcionamiento se basa en ejecutar automáticamente un recorrido de corte a partir de un diseño digital que uno mismo crea.
