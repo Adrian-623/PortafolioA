@@ -100,10 +100,21 @@ Retira gran cantidad de material rápidamente. Se usa al inicio para preparar la
 
 Útil para detalles pequeños, grabados finos y letras delicadas.
 
-Y aquí están nuestros moldes que diseñamos:
+Aquí están nuestros moldes que diseñamos:
 
 <a href="../Archivos/Abejita.SLDPRT" target="_blank"> Molde Adrián</a>
 
 <p align="center">
     <img src="../imgs/Molde.png" width="550">
+</p>
+
+<a href="../Archivos/MoldeI.SLDPRT" target="_blank"> Molde Iker</a>
+
+
+Y eston son los diseños de nuestras tablas cortadas con el Router:
+
+<a href="../Archivos/Tabla.SLDPRT" target="_blank"> Tabla Adrián</a>
+
+<p align="center">
+    <img src="../imgs/TablaA.png" width="550">
 </p>
