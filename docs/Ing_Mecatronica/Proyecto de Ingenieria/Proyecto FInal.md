@@ -52,7 +52,7 @@ Este fue el modelado de nuestras cabezas en 3D:
     <img src="../imgs/R.png" width="550">
 </p>
 
-<a href="../Archivos/Abejita.SLDPRT" target="_blank"> Escaneo Iker</a>
+<a href="../ims/Escaneo.stl" target="_blank"> Escaneo Iker</a>
 
 Y este es un vídeo de cómo se llevo a cabo la batalla entre grupos:
 
