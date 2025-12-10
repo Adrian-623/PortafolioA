@@ -373,15 +373,15 @@ Estos son los modelos de los soportes que hicimos para las plataformas:
 <a href="../Archivos/Pieza soporte.SLDPRT" target="_blank">Unión esferica</a>
 
 <p align="center">
-  <img src="../Archivos/SoporteS.png" width="550" /><br>
-  <b>Adrián</b>
+  <img src="../Archivos/SoporteS.png" width="100%" /><br>
+  
 </p> 
 
 <a href="../Archivos/soporte2plataforma.SLDPRT" target="_blank">Soporte inferior</a>
 
 <p align="center">
-  <img src="../Archivos/SoporteI.png" width="550" /><br>
-  <b>Adrián</b>
+  <img src="../Archivos/SoporteI.png" width="100%" /><br>
+  
 </p> 
 
 Este es el diseño de nuestra plataforma para cortarla por láser:
@@ -389,15 +389,15 @@ Este es el diseño de nuestra plataforma para cortarla por láser:
 <a href="../Archivos/Plataforma superior.SDLPRT" target="_blank">Plataforma superior</a>
 
 <p align="center">
-  <img src="../Archivos/I.png" width="550" /><br>
-  <b>Adrián</b>
+  <img src="../Archivos/I.png" width="100%" /><br>
+  
 </p> 
 
 <a href="../Archivos/Plataforma inferior.SLDPRT" target="_blank">Plataforma inferior</a>
 
 <p align="center">
-  <img src="../Archivos/S.png" width="550" /><br>
-  <b>Adrián</b>
+  <img src="../Archivos/S.png" width="100%" /><br>
+
 </p> 
 
 ## <span style="color:#0033A0;">**Resultados**</span>
