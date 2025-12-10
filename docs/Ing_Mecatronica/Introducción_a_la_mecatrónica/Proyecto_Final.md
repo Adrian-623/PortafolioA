@@ -363,7 +363,11 @@ void loop() {
 ```
 ## <span style="color:#0033A0;">**Archivos**</span>
 
-Estos son los modelos de los soportes 
+Estos son los modelos de los soportes que hicimos para las plataformas:
+
+<a href="../Archivos/arduinointromec.ino" target="_blank">Unión esferica</a>
+
+
 
 ## <span style="color:#0033A0;">**Resultados**</span>
 
