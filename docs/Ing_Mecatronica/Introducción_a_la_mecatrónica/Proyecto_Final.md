@@ -10,7 +10,7 @@
 </p>
 </div>
 
-Como proyecto final se nos asginó que hicieramos una plataforma que evitara que se cayera, pero a traves de una cámara que viera la plataforma desde arriba 
+Para el proyecto final se construyó una plataforma móvil diseñada para mantener una pelota equilibrada en el centro. Para lograrlo, se emplearon actuadores lineales que ajustan la posición de la superficie. El sistema reacciona de manera automática a cualquier movimiento de la pelota y combina principios de electrónica, programación y mecánica para formar un mecanismo de control plenamente operativo.
 
 ## <span style="color:#0033A0;">**Materiales**</span>
 
@@ -364,9 +364,9 @@ void loop() {
 ```
 ## <span style="color:#0033A0;">**Archivos**</span>
 
-Para el soporte superior se decidió diseañrlo con unión esferica ya que así le sería más fácil a la plataforma moverse de acuerdo a las inclinaciones con el soporte 
+Entre la plataforma superior y los actuadores se instalaron cuatro soportes articulados, ubicados en cada una de las esquinas. Cada soporte incorpora un cilindro rematado con una esfera que facilita tanto el giro como la rotación. Este mecanismo permite que la plataforma se incline con libertad, evitando esfuerzos mecánicos innecesarios y previniendo cualquier tipo de bloqueo en su movimiento
 
-Y para el inferior se tomaron medidas del actuador y se usaron para encajara perfectamente en el soporte
+Para la parte inferior y que aseguraran la correcta instalación de los motores en la estructura, se diseñaron e imprimieron en 3D cuatro soportes específicos para motores lineales, creados en SolidWorks. Estos soportes permiten mantener una alineación adecuada de los actuadores y aseguran que el movimiento se transfiera a la plataforma con precisión.
 
 Estos son los modelos de los soportes que hicimos para las plataformas:
 
@@ -383,6 +383,8 @@ Estos son los modelos de los soportes que hicimos para las plataformas:
   <img src="../Archivos/SoporteI.png" width="100%" /><br>
   
 </p> 
+
+La estructura central del proyecto se formó utilizando dos placas de MDF de 40 × 40 cm. La primera actúa como base, sirviendo para montar los motores lineales y los elementos electrónicos. La segunda constituye la plataforma superior, donde se sitúa la pelota. En conjunto, ambas piezas aportan la rigidez y estabilidad necesarias para el funcionamiento del sistema
 
 Este es el diseño de nuestra plataforma para cortarla por láser:
 
