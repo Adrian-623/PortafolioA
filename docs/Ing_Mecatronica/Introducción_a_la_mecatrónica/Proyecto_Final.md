@@ -365,9 +365,40 @@ void loop() {
 
 Estos son los modelos de los soportes que hicimos para las plataformas:
 
-<a href="../Archivos/arduinointromec.ino" target="_blank">Unión esferica</a>
+<a href="../Archivos/Pieza soporte.SLDPRT" target="_blank">Unión esferica</a>
 
+<p align="center">
+  <img src="../Archivos/SoporteS.png" width="550" /><br>
+  <b>Adrián</b>
+</p> 
 
+<a href="../Archivos/soporte2plataforma.SLDPRT" target="_blank">Soporte inferior</a>
+
+<p align="center">
+  <img src="../Archivos/SoporteI.png" width="550" /><br>
+  <b>Adrián</b>
+</p> 
+
+Este es el diseño de nuestra plataforma para cortarla por láser:
+
+<a href="../Archivos/Plataforma superior.SDLPRT" target="_blank">Plataforma superior</a>
+
+<p align="center">
+  <img src="../Archivos/I.png" width="550" /><br>
+  <b>Adrián</b>
+</p> 
+
+<a href="../Archivos/Plataforma inferior.SLDPRT" target="_blank">Plataforma inferior</a>
+
+<p align="center">
+  <img src="../Archivos/S.png" width="550" /><br>
+  <b>Adrián</b>
+</p> 
 
 ## <span style="color:#0033A0;">**Resultados**</span>
+
+<video width="100%" controls>
+  <source src="../Archivos/Resultados.mp4" type="video/mp4">
+  Tu navegador no soporta video.
+</video>
 
