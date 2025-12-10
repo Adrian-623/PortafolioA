@@ -362,7 +362,7 @@ void loop() {
 
 
 ```
-## <span style="color:#0033A0;">**Archivos**</span>
+## <span style="color:#0033A0;">**Explicación del procedimiento**</span>
 
 Entre la plataforma superior y los actuadores se instalaron cuatro soportes articulados, ubicados en cada una de las esquinas. Cada soporte incorpora un cilindro rematado con una esfera que facilita tanto el giro como la rotación. Este mecanismo permite que la plataforma se incline con libertad, evitando esfuerzos mecánicos innecesarios y previniendo cualquier tipo de bloqueo en su movimiento
 
@@ -411,3 +411,7 @@ Esta es la versión final de cómo quedó nuestro proyecto
   Tu navegador no soporta video.
 </video>
 
+<p align="center">
+  <img src="../Archivos/Fin.jpeg" width="100%" /><br>
+
+</p> 
