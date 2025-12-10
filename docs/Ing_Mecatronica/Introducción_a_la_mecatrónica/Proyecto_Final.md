@@ -10,7 +10,7 @@
 </p>
 </div>
 
-Como proyecto final se nos asginó que hicieramos una plataforma que evitara que se cayera, pero a traves de una camra que viera la plataforma desde arriba 
+Como proyecto final se nos asginó que hicieramos una plataforma que evitara que se cayera, pero a traves de una cámara que viera la plataforma desde arriba 
 
 ## <span style="color:#0033A0;">**Materiales**</span>
 
@@ -19,6 +19,7 @@ Como proyecto final se nos asginó que hicieramos una plataforma que evitara que
 - ESP32
 - Puentes H
 - Actuadores lineales
+- Pintura en aerosol
 
 ## <span style="color:#0033A0;">**Métodos de construcción**</span>
 
@@ -363,6 +364,10 @@ void loop() {
 ```
 ## <span style="color:#0033A0;">**Archivos**</span>
 
+Para el soporte superior se decidió diseañrlo con unión esferica ya que así le sería más fácil a la plataforma moverse de acuerdo a las inclinaciones con el soporte 
+
+Y para el inferior se tomaron medidas del actuador y se usaron para encajara perfectamente en el soporte
+
 Estos son los modelos de los soportes que hicimos para las plataformas:
 
 <a href="../Archivos/Pieza soporte.SLDPRT" target="_blank">Unión esferica</a>
@@ -396,6 +401,8 @@ Este es el diseño de nuestra plataforma para cortarla por láser:
 </p> 
 
 ## <span style="color:#0033A0;">**Resultados**</span>
+
+Esta es la versión final de cómo quedó nuestro proyecto
 
 <video width="100%" controls>
   <source src="../Archivos/Resultados.mp4" type="video/mp4">
