@@ -103,7 +103,7 @@
 <div class="contenedor-interactivo">
     <img src="../imgs/Mapa_Ibero.png" alt="Mapa interactivo" class="imagen-fondo">
 
-    <div class="punto-interactivo" style="top: 53%; left: 52%;" onclick="abrirModalVideo('../vds/Oficina_Oliver1.mp4')">
+    <div class="punto-interactivo" style="top: 80%; left: 45%;" onclick="abrirModalVideo('../vds/Oficina_Oliver1.mp4')">
         <div class="circulo-pulso"></div>
         <span class="cartelito">Oficina Mecatrónica</span>
     </div>
@@ -123,7 +123,7 @@
         <span class="cartelito">Aidel</span>
     </div>
 
-    <div class="punto-interactivo" style="top: 45%; left: 15%;" onclick="abrirModalVideo('../vds/Ciencias_Básicas.mp4')">
+    <div class="punto-interactivo" style="top: 30%; left: 50%;" onclick="abrirModalVideo('../vds/Ciencias_Básicas.mp4')">
         <div class="circulo-pulso"></div>
         <span class="cartelito">Ciencias básicas</span>
     </div>
@@ -133,17 +133,17 @@
         <span class="cartelito">Servicios escolares</span>
     </div>
 
-    <div class="punto-interactivo" style="top: 80%; left: 45%;" onclick="abrirModalVideo('../vds/Auditorio.mp4')">
+    <div class="punto-interactivo" style="top: 15%; left: 30%;" onclick="abrirModalVideo('../vds/Auditorio.mp4')">
         <div class="circulo-pulso"></div>
         <span class="cartelito">Auditorio </span>
     </div>
 
-    <div class="punto-interactivo" style="top: 15%; left: 30%;" onclick="abrirModalVideo('../vds/Canchas_Deportivas.mp4')">
+    <div class="punto-interactivo" style="top: 20%; left: 40%;" onclick="abrirModalVideo('../vds/Canchas_Deportivas.mp4')">
         <div class="circulo-pulso"></div>
         <span class="cartelito">Oficina Marícruz</span>
     </div>
 
-    <div class="punto-interactivo" style="top: 85%; left: 10%;" onclick="abrirModalVideo('../vds/Salon_Computo.mp4')">
+    <div class="punto-interactivo" style="top: 32%; left: 53%;" onclick="abrirModalVideo('../vds/Salon_Computo.mp4')">
         <div class="circulo-pulso"></div>
         <span class="cartelito">Oficna para instalar aplicaciones</span>
     </div>
