@@ -12,7 +12,7 @@
         height: auto;
     }
 
-    /* UBICACIÓN DEL CÍRCULO: Modifica estos porcentajes para moverlo a tu gusto */
+    /* UBICACIÓN DEL CÍRCULO: Modifica estos porcentajes para moverlo */
     .punto-interactivo {
         position: absolute;
         top: 40%;   /* Distancia desde arriba (0% a 100%) */
@@ -102,20 +102,22 @@
     }
 </style>
 
-<div class="contenedor-interactivo">
-    <img src="imgs/Mapa_Ibero.png" alt="Mapa interactivo" class="imagen-fondo">
+<div class="contenedor-interactivo" markdown="1">
 
-    <div class="punto-interactivo" id="puntoVideo">
-        <div class="circulo-pulso"></div>
-        <span class="cartelito">Oficina Mecatrónica</span>
-    </div>
+![Mapa interactivo](./imgs/Mapa_Ibero.png){ .imagen-fondo }
+
+<div class="punto-interactivo" id="puntoVideo">
+    <div class="circulo-pulso"></div>
+    <span class="cartelito">Oficina Mecatrónica</span>
+</div>
+
 </div>
 
 <div id="modalVideo" class="modal">
     <div class="contenido-modal">
         <span class="cerrar-modal">&times;</span>
         <video id="reproductor" controls width="100%">
-            <source src="vds/Oficina_Oliver1.mp4" type="video/mp4">
+            <source src="./vds/Oficina_Oliver1.mp4" type="video/mp4">
             Tu navegador no soporta la reproducción de videos.
         </video>
     </div>
@@ -127,20 +129,17 @@
     const cerrarModal = document.querySelector('.cerrar-modal');
     const reproductor = document.getElementById('reproductor');
 
-    // Abre el modal y reproduce el video al dar clic en el círculo
     puntoVideo.addEventListener('click', () => {
         modalVideo.style.display = 'flex';
         reproductor.play();
     });
 
-    // Cierra el modal al dar clic en la (X)
     cerrarModal.addEventListener('click', () => {
         modalVideo.style.display = 'none';
         reproductor.pause();
-        reproductor.currentTime = 0; // Reinicia el video
+        reproductor.currentTime = 0;
     });
 
-    // Cierra el modal si dan clic en el fondo negro exterior
     window.addEventListener('click', (e) => {
         if (e.target === modalVideo) {
             modalVideo.style.display = 'none';
