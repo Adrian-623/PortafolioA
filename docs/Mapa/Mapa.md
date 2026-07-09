@@ -103,55 +103,50 @@
 </style>
 
 <div class="contenedor-interactivo">
-    <img src="imgs/Mapa_Ibero.png" alt="Mapa interactivo" class="imagen-fondo">
+    <img src="../imgs/Mapa_Ibero.png" alt="Mapa interactivo" class="imagen-fondo">
 
-    <div class="punto-interactivo" id="puntoVideo">
+    <div class="punto-interactivo" id="puntoVideo" onclick="abrirModalVideo()">
         <div class="circulo-pulso"></div>
         <span class="cartelito">Oficina Mecatrónica</span>
     </div>
 </div>
 
-<div id="modalVideo" class="modal">
+<div id="modalVideo" class="modal" onclick="cerrarModalFondo(event)">
     <div class="contenido-modal">
-        <span class="cerrar-modal">&times;</span>
+        <span class="cerrar-modal" onclick="cerrarModalVideo()">&times;</span>
         <video id="reproductor" controls width="100%">
-            <source src="vds/Oficina_Oliver1.mp4" type="video/mp4">
+            <source src="../vds/Oficina_Oliver1.mp4" type="video/mp4">
             Tu navegador no soporta la reproducción de videos.
         </video>
     </div>
 </div>
 
 <script>
-    // Asegura que el script se ejecute correctamente en el entorno de MkDocs
-    document.addEventListener("DOMContentLoaded", function() {
-        const puntoVideo = document.getElementById('puntoVideo');
-        const modalVideo = document.getElementById('modalVideo');
-        const cerrarModal = document.querySelector('.cerrar-modal');
-        const reproductor = document.getElementById('reproductor');
-
-        if (puntoVideo && modalVideo && cerrarModal && reproductor) {
-            // Abre el modal y reproduce el video al dar clic en el círculo
-            puntoVideo.addEventListener('click', (e) => {
-                e.preventDefault();
-                modalVideo.style.display = 'flex';
-                reproductor.play();
-            });
-
-            // Cierra el modal al dar clic en la (X)
-            cerrarModal.addEventListener('click', () => {
-                modalVideo.style.display = 'none';
-                reproductor.pause();
-                reproductor.currentTime = 0; 
-            });
-
-            // Cierra el modal si dan clic en el fondo negro exterior
-            window.addEventListener('click', (e) => {
-                if (e.target === modalVideo) {
-                    modalVideo.style.display = 'none';
-                    reproductor.pause();
-                    reproductor.currentTime = 0;
-                }
-            });
+    // Funciones globales directas (así funcionan siempre sin importar el ciclo de vida de la página)
+    function abrirModalVideo() {
+        var modal = document.getElementById('modalVideo');
+        var reproductor = document.getElementById('reproductor');
+        if (modal && reproductor) {
+            modal.style.display = 'flex';
+            reproductor.play();
         }
-    });
+    }
+
+    function cerrarModalVideo() {
+        var modal = document.getElementById('modalVideo');
+        var reproductor = document.getElementById('reproductor');
+        if (modal && reproductor) {
+            modal.style.display = 'none';
+            reproductor.pause();
+            reproductor.currentTime = 0; // Reinicia el video al inicio
+        }
+    }
+
+    function cerrarModalFondo(event) {
+        var modal = document.getElementById('modalVideo');
+        // Si el clic fue en el fondo negro y no dentro del video, se cierra
+        if (event.target === modal) {
+            cerrarModalVideo();
+        }
+    }
 </script>
