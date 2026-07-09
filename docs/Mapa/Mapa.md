@@ -113,7 +113,7 @@
         <span class="cartelito">Bodega</span>
     </div>
 
-    <div class="punto-interactivo" style="top: 22%; left: 29%;" onclick="abrirModalVideo('../vds/Enfermería.mp4')">
+    <div class="punto-interactivo" style="top: 26%; left: 31%;" onclick="abrirModalVideo('../vds/Enfermería.mp4')">
         <div class="circulo-pulso"></div>
         <span class="cartelito">Enfermería</span>
     </div>
@@ -128,12 +128,12 @@
         <span class="cartelito">Ciencias básicas</span>
     </div>
 
-    <div class="punto-interactivo" style="top: 10%; left: 75%;" onclick="abrirModalVideo('../vds/Biblioteca.mp4')">
+    <div class="punto-interactivo" style="top: 10%; left: 34%;" onclick="abrirModalVideo('../vds/Biblioteca.mp4')">
         <div class="circulo-pulso"></div>
         <span class="cartelito">Servicios escolares</span>
     </div>
 
-    <div class="punto-interactivo" style="top: 15%; left: 40%;" onclick="abrirModalVideo('../vds/Auditorio.mp4')">
+    <div class="punto-interactivo" style="top: 15%; left: 30%;" onclick="abrirModalVideo('../vds/Auditorio.mp4')">
         <div class="circulo-pulso"></div>
         <span class="cartelito">Auditorio </span>
     </div>
