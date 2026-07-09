@@ -38,3 +38,10 @@ extra_css:
   - https://use.fontawesome.com/releases/v6.5.2/css/all.css
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css
 
+nav:
+  - Home: index.md
+  - Ing Mecatronicca:
+      - Introducción a la Mecatrónica: Ing_Mecatronica/Introducción_a_la_mecatrónica/index.md
+      - Proyecto de Ingeniería: Ing_Mecatronica/Proyecto_de_Ingeniería/index.md
+  - Mapa Interactivo: Mapa/Mapa.html
+  - Tutoriales: Tutoriales/index.md
