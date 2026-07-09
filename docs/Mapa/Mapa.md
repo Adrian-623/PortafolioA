@@ -108,12 +108,12 @@
         <span class="cartelito">Oficina Mecatrónica</span>
     </div>
 
-    <div class="punto-interactivo" style="top: 35%; left: 42%;" onclick="abrirModalVideo('../vds/Laboratorio_Electronica.mp4')">
+    <div class="punto-interactivo" style="top: 76%; left: 53%;" onclick="abrirModalVideo('../vds/Laboratorio_Electronica.mp4')">
         <div class="circulo-pulso"></div>
         <span class="cartelito">Bodega</span>
     </div>
 
-    <div class="punto-interactivo" style="top: 26%; left: 31%;" onclick="abrirModalVideo('../vds/Enfermería.mp4')">
+    <div class="punto-interactivo" style="top: 28%; left: 31%;" onclick="abrirModalVideo('../vds/Enfermería.mp4')">
         <div class="circulo-pulso"></div>
         <span class="cartelito">Enfermería</span>
     </div>
@@ -128,17 +128,17 @@
         <span class="cartelito">Ciencias básicas</span>
     </div>
 
-    <div class="punto-interactivo" style="top: 10%; left: 34%;" onclick="abrirModalVideo('../vds/Biblioteca.mp4')">
+    <div class="punto-interactivo" style="top: 9.5%; left: 34%;" onclick="abrirModalVideo('../vds/Biblioteca.mp4')">
         <div class="circulo-pulso"></div>
         <span class="cartelito">Servicios escolares</span>
     </div>
 
-    <div class="punto-interactivo" style="top: 15%; left: 30%;" onclick="abrirModalVideo('../vds/Auditorio.mp4')">
+    <div class="punto-interactivo" style="top: 20%; left: 30%;" onclick="abrirModalVideo('../vds/Auditorio.mp4')">
         <div class="circulo-pulso"></div>
         <span class="cartelito">Auditorio </span>
     </div>
 
-    <div class="punto-interactivo" style="top: 20%; left: 40%;" onclick="abrirModalVideo('../vds/Canchas_Deportivas.mp4')">
+    <div class="punto-interactivo" style="top: 83%; left: 44%;" onclick="abrirModalVideo('../vds/Canchas_Deportivas.mp4')">
         <div class="circulo-pulso"></div>
         <span class="cartelito">Oficina Marícruz</span>
     </div>
