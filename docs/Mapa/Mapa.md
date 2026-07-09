@@ -113,7 +113,7 @@
         <span class="cartelito">Bodega</span>
     </div>
 
-    <div class="punto-interactivo" style="top: 68%; left: 25%;" onclick="abrirModalVideo('../vds/Enfermería.mp4')">
+    <div class="punto-interactivo" style="top: 22%; left: 29%;" onclick="abrirModalVideo('../vds/Enfermería.mp4')">
         <div class="circulo-pulso"></div>
         <span class="cartelito">Enfermería</span>
     </div>
@@ -123,17 +123,17 @@
         <span class="cartelito">Aidel</span>
     </div>
 
-    <div class="punto-interactivo" style="top: 30%; left: 50%;" onclick="abrirModalVideo('../vds/Ciencias_Básicas.mp4')">
+    <div class="punto-interactivo" style="top: 27%; left: 52%;" onclick="abrirModalVideo('../vds/Ciencias_Básicas.mp4')">
         <div class="circulo-pulso"></div>
         <span class="cartelito">Ciencias básicas</span>
     </div>
 
-    <div class="punto-interactivo" style="top: 60%; left: 75%;" onclick="abrirModalVideo('../vds/Biblioteca.mp4')">
+    <div class="punto-interactivo" style="top: 10%; left: 75%;" onclick="abrirModalVideo('../vds/Biblioteca.mp4')">
         <div class="circulo-pulso"></div>
         <span class="cartelito">Servicios escolares</span>
     </div>
 
-    <div class="punto-interactivo" style="top: 15%; left: 30%;" onclick="abrirModalVideo('../vds/Auditorio.mp4')">
+    <div class="punto-interactivo" style="top: 15%; left: 40%;" onclick="abrirModalVideo('../vds/Auditorio.mp4')">
         <div class="circulo-pulso"></div>
         <span class="cartelito">Auditorio </span>
     </div>
@@ -143,7 +143,7 @@
         <span class="cartelito">Oficina Marícruz</span>
     </div>
 
-    <div class="punto-interactivo" style="top: 32%; left: 53%;" onclick="abrirModalVideo('../vds/Salon_Computo.mp4')">
+    <div class="punto-interactivo" style="top: 32%; left: 59%;" onclick="abrirModalVideo('../vds/Salon_Computo.mp4')">
         <div class="circulo-pulso"></div>
         <span class="cartelito">Oficna para instalar aplicaciones</span>
     </div>
