@@ -1,5 +1,5 @@
 <style>
-    /* Contenedor relativo para posicionar el círculo sobre la imagen */
+    /* Contenedor relativo para posicionar los círculos sobre la imagen */
     .contenedor-interactivo {
         position: relative;
         display: inline-block;
@@ -12,11 +12,9 @@
         height: auto;
     }
 
-    /* UBICACIÓN DEL CÍRCULO: Modifica estos porcentajes para moverlo a tu gusto */
+    /* ESTILO GENERAL DE LOS PUNTOS */
     .punto-interactivo {
         position: absolute;
-        top: 53%;   /* Ajusta la altura si necesitas moverlo verticalmente */
-        left: 52%;  /* Ajusta la posición horizontal */
         width: 24px;
         height: 24px;
         cursor: pointer;
@@ -105,28 +103,72 @@
 <div class="contenedor-interactivo">
     <img src="../imgs/Mapa_Ibero.png" alt="Mapa interactivo" class="imagen-fondo">
 
-    <div class="punto-interactivo" id="puntoVideo" onclick="abrirModalVideo()">
+    <div class="punto-interactivo" style="top: 53%; left: 52%;" onclick="abrirModalVideo('../vds/Oficina_Oliver1.mp4')">
         <div class="circulo-pulso"></div>
         <span class="cartelito">Oficina Mecatrónica</span>
     </div>
+
+    <div class="punto-interactivo" style="top: 35%; left: 42%;" onclick="abrirModalVideo('../vds/Laboratorio_Electronica.mp4')">
+        <div class="circulo-pulso"></div>
+        <span class="cartelito">Bodega</span>
+    </div>
+
+    <div class="punto-interactivo" style="top: 68%; left: 25%;" onclick="abrirModalVideo('../vds/Enfermería.mp4')">
+        <div class="circulo-pulso"></div>
+        <span class="cartelito">Enfermería</span>
+    </div>
+
+    <div class="punto-interactivo" style="top: 20%; left: 60%;" onclick="abrirModalVideo('../vds/Centro_Computo.mp4')">
+        <div class="circulo-pulso"></div>
+        <span class="cartelito">Aidel</span>
+    </div>
+
+    <div class="punto-interactivo" style="top: 45%; left: 15%;" onclick="abrirModalVideo('../vds/Ciencias_Básicas.mp4')">
+        <div class="circulo-pulso"></div>
+        <span class="cartelito">Ciencias básicas</span>
+    </div>
+
+    <div class="punto-interactivo" style="top: 60%; left: 75%;" onclick="abrirModalVideo('../vds/Biblioteca.mp4')">
+        <div class="circulo-pulso"></div>
+        <span class="cartelito">Servicios escolares</span>
+    </div>
+
+    <div class="punto-interactivo" style="top: 80%; left: 45%;" onclick="abrirModalVideo('../vds/Auditorio.mp4')">
+        <div class="circulo-pulso"></div>
+        <span class="cartelito">Auditorio </span>
+    </div>
+
+    <div class="punto-interactivo" style="top: 15%; left: 30%;" onclick="abrirModalVideo('../vds/Canchas_Deportivas.mp4')">
+        <div class="circulo-pulso"></div>
+        <span class="cartelito">Oficina Marícruz</span>
+    </div>
+
+    <div class="punto-interactivo" style="top: 85%; left: 10%;" onclick="abrirModalVideo('../vds/Salon_Computo.mp4')">
+        <div class="circulo-pulso"></div>
+        <span class="cartelito">Oficna para instalar aplicaciones</span>
+    </div>
+
 </div>
 
 <div id="modalVideo" class="modal" onclick="cerrarModalFondo(event)">
     <div class="contenido-modal">
         <span class="cerrar-modal" onclick="cerrarModalVideo()">&times;</span>
         <video id="reproductor" controls width="100%">
-            <source src="../vds/Oficina_Oliver1.mp4" type="video/mp4">
+            <source id="videoSource" src="" type="video/mp4">
             Tu navegador no soporta la reproducción de videos.
         </video>
     </div>
 </div>
 
 <script>
-    // Funciones globales directas (así funcionan siempre sin importar el ciclo de vida de la página)
-    function abrirModalVideo() {
+    // Esta función recibe dinámicamente el video correspondiente al círculo presionado
+    function abrirModalVideo(rutaVideo) {
         var modal = document.getElementById('modalVideo');
         var reproductor = document.getElementById('reproductor');
+        
         if (modal && reproductor) {
+            reproductor.src = rutaVideo; // Asigna el video correcto
+            reproductor.load();         // Fuerza la recarga del elemento de video
             modal.style.display = 'flex';
             reproductor.play();
         }
@@ -138,13 +180,12 @@
         if (modal && reproductor) {
             modal.style.display = 'none';
             reproductor.pause();
-            reproductor.currentTime = 0; // Reinicia el video al inicio
+            reproductor.currentTime = 0; // Reinicia el tiempo
         }
     }
 
     function cerrarModalFondo(event) {
         var modal = document.getElementById('modalVideo');
-        // Si el clic fue en el fondo negro y no dentro del video, se cierra
         if (event.target === modal) {
             cerrarModalVideo();
         }
