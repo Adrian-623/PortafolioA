@@ -108,12 +108,12 @@
         <span class="cartelito">Oficina Mecatrónica</span>
     </div>
 
-    <div class="punto-interactivo" style="top: 76%; left: 53%;" onclick="abrirModalVideo('../vds/Laboratorio_Electronica.mp4')">
+    <div class="punto-interactivo" style="top: 78%; left: 53%;" onclick="abrirModalVideo('../vds/Laboratorio_Electronica.mp4')">
         <div class="circulo-pulso"></div>
         <span class="cartelito">Bodega</span>
     </div>
 
-    <div class="punto-interactivo" style="top: 28%; left: 31%;" onclick="abrirModalVideo('../vds/Enfermería.mp4')">
+    <div class="punto-interactivo" style="top: 29%; left: 31%;" onclick="abrirModalVideo('../vds/Enfermería.mp4')">
         <div class="circulo-pulso"></div>
         <span class="cartelito">Enfermería</span>
     </div>
@@ -138,7 +138,7 @@
         <span class="cartelito">Auditorio </span>
     </div>
 
-    <div class="punto-interactivo" style="top: 83%; left: 44%;" onclick="abrirModalVideo('../vds/Canchas_Deportivas.mp4')">
+    <div class="punto-interactivo" style="top: 85%; left: 44%;" onclick="abrirModalVideo('../vds/Canchas_Deportivas.mp4')">
         <div class="circulo-pulso"></div>
         <span class="cartelito">Oficina Marícruz</span>
     </div>
