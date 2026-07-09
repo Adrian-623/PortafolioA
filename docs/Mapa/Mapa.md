@@ -12,13 +12,13 @@
         height: auto;
     }
 
-    /* UBICACIÓN DEL CÍRCULO: Modifica estos porcentajes para moverlo */
+    /* UBICACIÓN DEL CÍRCULO: Modifica estos porcentajes para moverlo a tu gusto */
     .punto-interactivo {
         position: absolute;
-        top: 40%;   /* Distancia desde arriba (0% a 100%) */
-        left: 50%;  /* Distancia desde la izquierda (0% a 100%) */
-        width: 22px;
-        height: 22px;
+        top: 53%;   /* Ajusta la altura si necesitas moverlo verticalmente */
+        left: 52%;  /* Ajusta la posición horizontal */
+        width: 24px;
+        height: 24px;
         cursor: pointer;
         z-index: 10;
     }
@@ -102,49 +102,56 @@
     }
 </style>
 
-<div class="contenedor-interactivo" markdown="1">
+<div class="contenedor-interactivo">
+    <img src="imgs/Mapa_Ibero.png" alt="Mapa interactivo" class="imagen-fondo">
 
-![Mapa interactivo](./imgs/Mapa_Ibero.png){ .imagen-fondo }
-
-<div class="punto-interactivo" id="puntoVideo">
-    <div class="circulo-pulso"></div>
-    <span class="cartelito">Oficina Mecatrónica</span>
-</div>
-
+    <div class="punto-interactivo" id="puntoVideo">
+        <div class="circulo-pulso"></div>
+        <span class="cartelito">Oficina Mecatrónica</span>
+    </div>
 </div>
 
 <div id="modalVideo" class="modal">
     <div class="contenido-modal">
         <span class="cerrar-modal">&times;</span>
         <video id="reproductor" controls width="100%">
-            <source src="./vds/Oficina_Oliver1.mp4" type="video/mp4">
+            <source src="vds/Oficina_Oliver1.mp4" type="video/mp4">
             Tu navegador no soporta la reproducción de videos.
         </video>
     </div>
 </div>
 
 <script>
-    const puntoVideo = document.getElementById('puntoVideo');
-    const modalVideo = document.getElementById('modalVideo');
-    const cerrarModal = document.querySelector('.cerrar-modal');
-    const reproductor = document.getElementById('reproductor');
+    // Asegura que el script se ejecute correctamente en el entorno de MkDocs
+    document.addEventListener("DOMContentLoaded", function() {
+        const puntoVideo = document.getElementById('puntoVideo');
+        const modalVideo = document.getElementById('modalVideo');
+        const cerrarModal = document.querySelector('.cerrar-modal');
+        const reproductor = document.getElementById('reproductor');
 
-    puntoVideo.addEventListener('click', () => {
-        modalVideo.style.display = 'flex';
-        reproductor.play();
-    });
+        if (puntoVideo && modalVideo && cerrarModal && reproductor) {
+            // Abre el modal y reproduce el video al dar clic en el círculo
+            puntoVideo.addEventListener('click', (e) => {
+                e.preventDefault();
+                modalVideo.style.display = 'flex';
+                reproductor.play();
+            });
 
-    cerrarModal.addEventListener('click', () => {
-        modalVideo.style.display = 'none';
-        reproductor.pause();
-        reproductor.currentTime = 0;
-    });
+            // Cierra el modal al dar clic en la (X)
+            cerrarModal.addEventListener('click', () => {
+                modalVideo.style.display = 'none';
+                reproductor.pause();
+                reproductor.currentTime = 0; 
+            });
 
-    window.addEventListener('click', (e) => {
-        if (e.target === modalVideo) {
-            modalVideo.style.display = 'none';
-            reproductor.pause();
-            reproductor.currentTime = 0;
+            // Cierra el modal si dan clic en el fondo negro exterior
+            window.addEventListener('click', (e) => {
+                if (e.target === modalVideo) {
+                    modalVideo.style.display = 'none';
+                    reproductor.pause();
+                    reproductor.currentTime = 0;
+                }
+            });
         }
     });
 </script>
